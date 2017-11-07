@@ -1,0 +1,15 @@
+server {
+        listen 80 default;
+        server_name www.conibambini.it;
+
+        root ~/Development/conibambini.it;
+
+        index index.php;
+
+        include global/restrictions.conf;
+
+        # Additional rules go here.
+
+        # Only include one of the files below.
+        include global/wordpress-ms-subdir.conf;
+}

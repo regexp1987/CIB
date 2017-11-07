@@ -1,0 +1,22 @@
+DB
+
+Creati un nuovo DB in locale 'conibambini', codifica utf8mb4, collate utf8mb4_unicode_ci. poi dentro fai "execut SQL file da navicat" e scegli DDL/conibambini.sql
+
+Vhost
+
+copia la cartella DDL/nginx/global dentro /usr/local/etc/nginx
+copia il file DDL/nginx/conibambini.it dentro /usr/local/etc/nginx/sites-available e modifica la riga 5 inserendo il path corretto della tua macchina.
+
+poi esegui questo comando
+
+cd /usr/local/etc/nginx/sites-enabled && ln -s ../sites-available/conibambini.it
+
+riavvii nginx
+
+modifichi il file /etc/hosts aggiungendo in fondo
+
+127.0.0.1 www.conibambini.it
+
+in fine ti sposti nella cartella del progetto e fai una copia para para del wp-config-sample.php e la chiami wp-config.php è già settato con le impostazioni locali.
+
+Bella!
