@@ -19,4 +19,12 @@ modifichi il file /etc/hosts aggiungendo in fondo
 
 in fine ti sposti nella cartella del progetto e fai una copia para para del wp-config-sample.php e la chiami wp-config.php è già settato con le impostazioni locali.
 
+installazione ElasticSearch
+
+1) brew install elasticsearch
+
+
+
+
+
 Bella!
