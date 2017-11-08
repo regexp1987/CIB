@@ -1,0 +1,84 @@
+// main: magellan-stylesheet.less
+
+// Forms
+// --------------------------------------------------
+
+input { &:focus { outline: 0 !important; } }
+
+input[type="text"], input[type="email"], input[type="password"], input[type="number"], textarea {
+	background: @primary-color-2;
+	box-shadow: fade(@primary-color-1, 20%) 0 -1px 0 inset, fade(@primary-color-1, 20%) 0 1px 0 inset, fade(@primary-color-1, 20%) 1px 0 0 inset, fade(@primary-color-1, 20%) -1px 0 0 inset, fade(@primary-color-1, 4%) 0 4px 0 inset;
+	border: none;
+	padding: 9px 15px;
+	margin: 0 0 10px 0;
+	height: 42px;
+	display: inline-block;
+	font: 14px/24px @general_font, sans-serif;
+	color: @primary-color-3;
+	transition: @transition-fast;
+	float: left;
+	width: 100%;
+    -webkit-appearance: none;
+	&:focus {
+		outline: none;
+		box-shadow: @accent-color-1 0 -1px 0 inset, @accent-color-1 0 1px 0 inset, @accent-color-1 1px 0 0 inset, @accent-color-1 -1px 0 0 inset, fade(@primary-color-1, 4%) 0 4px 0 inset;
+	}
+}
+
+input[type="submit"] {
+	background: @accent-color-1;
+	color: @text-color-1;
+	font: 900 14px/24px @general_font, sans-serif;
+	text-transform: uppercase;
+	border: none;
+	height: 42px;
+	padding: 9px 15px;
+	display: inline-block;
+	box-shadow: fade(@primary-color-1, 20%) 0 -3px 0 inset;
+	float: left;
+	width: 100%;
+    -webkit-appearance: none;
+	&:hover { background: @primary-color-3; color: @primary-color-2; box-shadow: @primary-color-1 0 -3px 0 inset; }
+	&:active { box-shadow: none; padding: 10px 15px 8px 15px; }
+}
+
+.input-wrapper { display: table; }
+
+select {
+	background: @primary-color-2;
+	box-shadow: fade(@primary-color-1, 20%) 0 -1px 0 inset, fade(@primary-color-1, 20%) 0 1px 0 inset, fade(@primary-color-1, 20%) 1px 0 0 inset, fade(@primary-color-1, 20%) -1px 0 0 inset, fade(@primary-color-1, 4%) 0 4px 0 inset;
+	border: none;
+	border-radius: 0;
+	padding: 9px 10px;
+	margin: 0 0 0 0;
+	height: 42px;
+	display: inline-block;
+	font: 700 14px/24px @general_font, sans-serif;
+	color: @primary-color-3;
+	transition: @transition-fast;
+	width: auto;
+	&:focus {
+		outline: none;
+		box-shadow: @accent-color-1 0 -1px 0 inset, @accent-color-1 0 1px 0 inset, @accent-color-1 1px 0 0 inset, @accent-color-1 -1px 0 0 inset, fade(@primary-color-1, 4%) 0 4px 0 inset;
+	}
+}
+
+form.magellan-login {
+	margin: 0 auto;
+	width: 400px;
+	display: inline-block;
+	left: 50%;
+	transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    position: relative;
+	.input-wrapper {
+		width: 100% !important;
+		input[type="text"], input[type="password"] { width: 100%; }
+		input[type="checkbox"] {
+			float: left;
+			margin: 6px 10px 0 0 !important;
+		}
+		label { margin: 0; }
+	}
+	.lost-password { float: right; }
+}

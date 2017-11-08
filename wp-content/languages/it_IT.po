@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.8.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-09-30 11:12:28+0000\n"
+"PO-Revision-Date: 2017-11-07 11:16:13+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,19 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: it\n"
 "Project-Id-Version: WordPress - 4.8.x\n"
+
+#. translators: 1: number of placeholders, 2: number of arguments passed
+#: wp-includes/wp-db.php:1364
+msgid "The query does not contain the correct number of placeholders (%1$d) for the number of arguments passed (%2$d)."
+msgstr "La query non contiene il numero corretto di segnaposti (%1$d) per il numero di argomenti forniti (%2$d)."
+
+#: wp-includes/wp-db.php:1353
+msgid "The query only expected one placeholder, but an array of multiple placeholders was sent."
+msgstr "La query si aspetta un solo segnaposto, ma è stato inviato un array di segnaposti."
+
+#: wp-includes/wp-db.php:1316
+msgid "Unsupported value type (%s)."
+msgstr "Tipo di valore non supportato (%s)."
 
 #: wp-trackback.php:125
 msgid "We already have a ping from that URL for this post."
@@ -473,71 +486,71 @@ msgstr "Link per %s"
 
 #. translators: 1: WordPress version number, 2: Minimum required MySQL version
 #. number
-#: wp-includes/wp-db.php:3232
+#: wp-includes/wp-db.php:3345
 msgid "<strong>ERROR</strong>: WordPress %1$s requires MySQL %2$s or higher"
 msgstr "<strong>ERRORE</strong>: WordPress %1$s richiede MySQL %2$s o superiore"
 
-#: wp-includes/wp-db.php:1811 wp-includes/wp-db.php:1817
+#: wp-includes/wp-db.php:1866 wp-includes/wp-db.php:1872
 msgid "Unable to retrieve the error message from MySQL"
 msgstr "Impossibile ottenere il messaggio di errore da MySQL"
 
-#: wp-includes/wp-db.php:1709
+#: wp-includes/wp-db.php:1764
 msgid "Are you sure that the database server is not under particularly heavy load?"
 msgstr "Sei sicuro che il server del database non sia sovraccarico?"
 
 #. translators: %s: database host
-#: wp-includes/wp-db.php:1703
+#: wp-includes/wp-db.php:1758
 msgid "This means that we lost contact with the database server at %s. This could mean your host&#8217;s database server is down."
 msgstr "Vuol dire che abbiamo perso il collegamento col server database %s. Potrebbe voler dire che il tuo database è irraggiungibile."
 
-#: wp-includes/wp-db.php:1699
+#: wp-includes/wp-db.php:1754
 msgid "Error reconnecting to the database"
 msgstr "Errore di riconnessione al database"
 
 #. translators: %s: support forums URL
-#: wp-includes/wp-db.php:1610 wp-includes/wp-db.php:1714
+#: wp-includes/wp-db.php:1665 wp-includes/wp-db.php:1769
 msgid "If you&#8217;re unsure what these terms mean you should probably contact your host. If you still need help you can always visit the <a href=\"%s\">WordPress Support Forums</a>."
 msgstr "Se non sei sicuro di cosa vogliano dire questi termini prova a contattare il tuo fornitore di hosting. Se hai ancora bisogno di aiuto puoi sempre visitare il <a href=\"%s\">forum di supporto di WordPress</a>."
 
-#: wp-includes/wp-db.php:1605 wp-includes/wp-db.php:1708
+#: wp-includes/wp-db.php:1660 wp-includes/wp-db.php:1763
 msgid "Are you sure that the database server is running?"
 msgstr "Sei sicuro che il server del database sia attivo?"
 
-#: wp-includes/wp-db.php:1604
+#: wp-includes/wp-db.php:1659
 msgid "Are you sure that you have typed the correct hostname?"
 msgstr "Sei sicuro di aver immesso l'hostname corretto?"
 
-#: wp-includes/wp-db.php:1603
+#: wp-includes/wp-db.php:1658
 msgid "Are you sure you have the correct username and password?"
 msgstr "Sei sicuro di avere nome utente e password corretti?"
 
 #. translators: 1: wp-config.php. 2: database host
-#: wp-includes/wp-db.php:1597
+#: wp-includes/wp-db.php:1652
 msgid "This either means that the username and password information in your %1$s file is incorrect or we can&#8217;t contact the database server at %2$s. This could mean your host&#8217;s database server is down."
 msgstr "Questo potrebbe voler dire che nome utente e password nel file %1$s sono sbagliate o che non possiamo contattare il database %2$s. Potrebbe voler dire che il tuo database è irraggiungibile."
 
-#: wp-includes/wp-db.php:1395 wp-includes/wp-db.php:1412
+#: wp-includes/wp-db.php:1450 wp-includes/wp-db.php:1467
 msgid "WordPress database error:"
 msgstr "Errore sul database di WordPress:"
 
 #. translators: 1: Database error message, 2: SQL query
-#: wp-includes/wp-db.php:1382
+#: wp-includes/wp-db.php:1437
 msgid "WordPress database error %1$s for query %2$s"
 msgstr "WordPress errore database %1$s per la query %2$s"
 
 #. translators: 1: Database error message, 2: SQL query, 3: Name of the calling
 #. function
-#: wp-includes/wp-db.php:1379
+#: wp-includes/wp-db.php:1434
 msgid "WordPress database error %1$s for query %2$s made by %3$s"
 msgstr "WordPress errore sul database %1$s per la query %2$s fatta da %3$s"
 
-#: wp-includes/wp-db.php:1297
+#: wp-includes/wp-db.php:1300
 msgid "The query argument of %s must have a placeholder."
 msgstr "L'argomento %s della query deve avere un valore."
 
 #. translators: %s: database access abstraction class, usually wpdb or a class
 #. extending wpdb
-#: wp-includes/wp-db.php:1180
+#: wp-includes/wp-db.php:1179
 msgid "%s must set a database connection for use with escaping."
 msgstr "%s deve impostare una connessione ad un database da utilizzare per l'escaping."
 
@@ -6562,7 +6575,7 @@ msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead.
 msgstr "%1$s è <strong>deprecata</strong> dalla versione %2$s! Utilizzare al suo posto %3$s."
 
 #: wp-includes/functions.php:3770 wp-includes/ms-load.php:462
-#: wp-includes/wp-db.php:1593
+#: wp-includes/wp-db.php:1648
 msgid "Error establishing a database connection"
 msgstr "Errore nello stabilire una connessione al database"
 
@@ -6630,42 +6643,42 @@ msgid "off"
 msgstr "disattivato"
 
 #. translators: used to join items in a list with only 2 items
-#: wp-includes/formatting.php:4487
+#: wp-includes/formatting.php:4492
 msgid "%s and %s"
 msgstr "%s e %s"
 
 #. translators: used to join last two items in a list with more than 2 times
-#: wp-includes/formatting.php:4485
+#: wp-includes/formatting.php:4490
 msgid "%s, and %s"
 msgstr "%s e %s"
 
 #. translators: used to join items in a list with more than 2 items
-#: wp-includes/formatting.php:4483
+#: wp-includes/formatting.php:4488
 msgid "%s, %s"
 msgstr "%s, %s"
 
-#: wp-includes/formatting.php:4252
+#: wp-includes/formatting.php:4257
 msgid "https://codex.wordpress.org/Using_Permalinks#Choosing_your_permalink_structure"
 msgstr "https://codex.wordpress.org/Using_Permalinks#Choosing_your_permalink_structure"
 
 #. translators: %s: Codex URL
-#: wp-includes/formatting.php:4251
+#: wp-includes/formatting.php:4256
 msgid "A structure tag is required when using custom permalinks. <a href=\"%s\">Learn more</a>"
 msgstr "Quando usi permalink personalizzati devi avere una struttura di tag. <a href=\"%s\">Per saperne di più</a>"
 
-#: wp-includes/formatting.php:4233
+#: wp-includes/formatting.php:4238
 msgid "The timezone you have entered is not valid. Please select a valid timezone."
 msgstr "Il fuso orario inserito non è valido. Seleziona un fuso orario valido."
 
-#: wp-includes/formatting.php:4178
+#: wp-includes/formatting.php:4183
 msgid "The Site address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "L'indirizzo del sito immesso non sembra essere una URL valida. Inserisci una URL valida."
 
-#: wp-includes/formatting.php:4165
+#: wp-includes/formatting.php:4170
 msgid "The WordPress address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "L'indirizzo di WordPress inserito non sembra essere una URL valida. Inserisci una URL valida."
 
-#: wp-includes/formatting.php:4059
+#: wp-includes/formatting.php:4064
 msgid "The email address entered did not appear to be a valid email address. Please enter a valid email address."
 msgstr "L'indirizzo email inserito non sembra essere un indirizzo email valido. Inserisci un indirizzo email valido."
 
@@ -6789,7 +6802,7 @@ msgid "&#8221;"
 msgstr "&#8221;"
 
 #. translators: opening curly double quote
-#: wp-includes/formatting.php:88 wp-includes/formatting.php:4792
+#: wp-includes/formatting.php:88 wp-includes/formatting.php:4797
 msgctxt "opening curly double quote"
 msgid "&#8220;"
 msgstr "&#8220;"
@@ -11019,8 +11032,8 @@ msgstr "Riscontro"
 
 #: wp-includes/admin-bar.php:164 wp-includes/update.php:129
 #: wp-includes/update.php:321 wp-includes/update.php:499
-#: wp-includes/wp-db.php:1129 wp-includes/wp-db.php:1611
-#: wp-includes/wp-db.php:1715 wp-login.php:796
+#: wp-includes/wp-db.php:1129 wp-includes/wp-db.php:1666
+#: wp-includes/wp-db.php:1770 wp-login.php:796
 msgid "https://wordpress.org/support/"
 msgstr "https://wordpress.org/support/ "
 

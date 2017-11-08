@@ -1,0 +1,109 @@
+// main: magellan-stylesheet.less
+
+@media only screen and (max-width: 991px) {
+
+	.mega-menu {
+
+		.nav {
+
+			width: 100%;
+
+			& > li {
+				float: left;
+				width: 100% !important;
+				position: relative !important;
+				box-shadow: fade(@primary-color-2, 30%) 0 1px 0 inset;
+				& > a:focus { background: none; color: @primary-color-3; }
+				& > .parent {
+					padding-right: 17px;
+					&:after {
+						right: 17px;
+					}
+				}
+				ul {
+					top: 75px !important;
+					left: 0 !important;
+					box-shadow: none !important;
+					transition: none !important;
+					a:focus { text-decoration: none; background: none; }
+					a:hover {
+						background: fade(@primary-color-1, 20%);
+						color: @accent-color-1;
+						text-decoration: none;
+					}
+				}
+				&.hover > a { background: transparent !important; color: @primary-color-3 !important; }
+				&.hover > ul {
+					top: auto !important;
+					position: relative !important;
+				}
+				li {
+					&.hover > a { background: transparent !important; }
+					& > .parent { &:after { content: "\f0d7"; } }
+					&.hover > ul { position: relative !important; }
+					ul {
+						top: 0 !important;
+						li {
+							& > a {
+								font-size: 12px; background: fade(@primary-color-1, 40%);
+								&:hover { background: fade(@primary-color-1, 60%); }
+							}
+						}
+					}
+				}
+			}
+
+			.fa-home:after { font: 900 16px @menu_font, sans-serif; }
+			.fa-home:before { display: none; }
+			.fa-video-camera:after { content: "Video"; font: 900 16px @menu_font, sans-serif; }
+			.fa-video-camera:before { display: none; }
+			.full-width ul { padding: 20px 17px 17px 17px !important; }
+
+		}
+
+		.post-block {
+			/* margin-bottom: -20px; */
+			a:hover { background: none !important; }
+			.overlay-wrapper { display: none; }
+			.row { margin-bottom: 0; }
+			.col-md-3,
+			.col-md-4,
+			.col-md-6,
+			.col-md-12 {
+				width: 100%;
+				display: table;
+				margin-bottom: 20px;
+			}
+			.col-md-4:last-child .row:last-child .col-md-12 { margin-bottom: 0; }
+			.post-featured {
+				.overlay-wrapper { display: block; }
+				.title .btn { display: inline-block !important; }
+			}
+			&.btn-more { margin: 0; padding-top: 20px !important; }
+			.btn-play { &:hover { background: @accent-color-1 !important; } }
+			.row ul {
+				display: block;
+				position: relative;
+				padding: 0 !important;
+				li {
+					a {
+						background: none;
+						font-size: 16px;
+						&:hover { background: fade(@primary-color-1, 20%) !important; }
+					}
+				}
+			}
+		}
+
+		.post-video { .post { width: 100%; } }
+
+		.title-default { margin-bottom: 20px; }
+
+		.sorting {
+			margin-bottom: 15px;
+			.btn { margin-bottom: 5px; }
+		}
+
+	}
+
+}

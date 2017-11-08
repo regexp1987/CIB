@@ -1,7 +1,440 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a47dcd1f-770e-45c5-9bba-9599473103b7" name="Default" comment="" />
+    <list default="true" id="a47dcd1f-770e-45c5-9bba-9599473103b7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/images/features-screenshot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/images/arrow-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/images/button-browse-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/images/checkbox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/images/gradient-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/images/gradient-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/images/gradient-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/images/gradient-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/images/icon-check-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/images/icon-close-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/images/icon-close-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/images/icon-delete-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/images/icon-error-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/images/icon-footer-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/images/icon-help-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/images/icon-info-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/images/logo-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/images/newsletter-bg-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/images/planetshine-cp-panel-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/images/radio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/images/switch-off-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/images/switch-on-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/screenshot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/fonts/weathericons-regular-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/fonts/weathericons-regular-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/fonts/weathericons-regular-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/fonts/weathericons-regular-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/images/banner-300x300.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/images/banner-468x60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/images/banner-728x90.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/images/banner-970x90.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/images/blog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/images/contact-us.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/images/magellan-demo-church.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/images/magellan-demo-fitness.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/images/magellan-demo-gaming.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/images/magellan-demo-lifestyle.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/images/magellan-demo-news.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/images/magellan-demo-tech.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/images/no-image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/images/overlay-bg-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/images/vc_blocks.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/plugins/js_composer.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/plugins/planetshine-magellan.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/plugins/revslider.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/assets/css/admin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/assets/css/admin.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/assets/css/admin.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/assets/css/admin.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/assets/js/admin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/assets/js/dashboard.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/assets/js/src/admin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/assets/js/src/dashboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/bin/wp-cli.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/classes/class-ep-api.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/classes/class-ep-config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/classes/class-ep-dashboard.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/classes/class-ep-feature.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/classes/class-ep-features.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/classes/class-ep-sync-manager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/classes/class-ep-wp-date-query.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/classes/class-ep-wp-query-integration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/elasticpress.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/features/autosuggest/assets/css/autosuggest.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/features/autosuggest/assets/css/autosuggest.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/features/autosuggest/assets/css/autosuggest.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/features/autosuggest/assets/css/autosuggest.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/features/autosuggest/assets/js/autosuggest.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/features/autosuggest/assets/js/src/autosuggest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/features/autosuggest/autosuggest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/features/documents/documents.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/features/protected-content/protected-content.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/features/related-posts/related-posts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/features/related-posts/widget.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/features/search/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/features/woocommerce/woocommerce.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/images/logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/includes/dashboard-page.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/includes/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/includes/intro-page.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/includes/mappings/5-0.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/includes/mappings/5-2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/includes/mappings/pre-5-0.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/includes/settings-page.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/lang/elasticpress.pot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/elasticpress/uninstall.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan-child/functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan-child/languages/default.pot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan-child/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/404.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/archive-gallery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/buddypress.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/comments.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/init.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/lib/envatoProtectedAPI.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/lib/envatoWpThemeUpdater.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/lib/lessc.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/lib/settings.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/lib/tgmPluginActivation.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/lib/wp-less.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/lib/wpBootstrapNavwalker.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/admin-functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/admin-templates.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/css/global-style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/css/jquery.fileupload-ui-noscript.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/css/jquery.fileupload-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/css/jquery.fileupload.base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/js/jquery.dropkick.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/js/jquery.fileupload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/js/jquery.iframe-transport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/js/jquery.uniform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/js/progressbar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/assets/js/scripts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/templates/admin-layout.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/templates/ads-edit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/templates/ads-locations.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/templates/ads-manager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/templates/backup-reset.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/templates/demo-import.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/templates/google-fonts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/templates/install-pages.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/templates/load-preset.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/templates/option-list.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/templates/register-theme.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/templates/sidebar-manager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/templates/sidebar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/panel/templates/status.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/shared-functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/core/template-functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/footer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/forum.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/languages/magellan.pot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/page-layout.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/page-sidebar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/page.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/searchform.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/sidebar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/single.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/css/magellan.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/css/vendor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/fonts/weathericons-regular-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/js/planetshine-mega-menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/js/theme.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/js/vendor/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/js/vendor/jquery.cycle2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/js/vendor/jquery.inview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/js/vendor/jquery.mobile.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/js/vendor/jquery.nicescroll.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/js/vendor/jquery.particleground.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/js/vendor/jquery.ui.touch-punch.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/js/vendor/modernizr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/js/vendor/share-button.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/js/widget-upload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/less/magellan-bbpress.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/less/magellan-forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/less/magellan-iefix.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/less/magellan-stylesheet-extrasmall.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/less/magellan-stylesheet-medium.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/less/magellan-stylesheet-small.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/less/magellan-stylesheet.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/less/magellan-variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/less/magellan-widgets.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/less/magellan-woocommerce.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/less/magellan-wordpress-defaults.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/less/magellan.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/less/overrides.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/less/planetshine-buddypress.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/less/planetshine-megamenu-extrasmall.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/less/planetshine-megamenu.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/assets/less/planetshine-vc-shortcodes.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/customizer-settings.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/google-fonts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/settings.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/vc-blocks/banner300.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/vc-blocks/banner728.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/vc-blocks/banner970.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/vc-blocks/compact-post-columns.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/vc-blocks/exclusive-post.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/vc-blocks/gallery-embed.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/vc-blocks/home-slider-item.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/vc-blocks/home-slider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/vc-blocks/news-block-with-scroll-list.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/vc-blocks/news-ticker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/vc-blocks/photo-galleries.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/vc-blocks/post-category-slider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/vc-blocks/post-list-compact-items.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/vc-blocks/post-list-large-items.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/vc-blocks/post-list-with-heading.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/vc-blocks/post-slider-large.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/vc-blocks/review-summary.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/vc-blocks/title-block.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/widgets/magellan-about.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/widgets/magellan-banner-large.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/widgets/magellan-category-scroller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/widgets/magellan-dropdown-category-posts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/widgets/magellan-dropdown-featured-post-list.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/widgets/magellan-dropdown-latest-videos.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/widgets/magellan-dropdown-post-list-with-heading.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/widgets/magellan-dropdown-post-list-with-sidemenu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/widgets/magellan-newsletter-social.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/widgets/magellan-post-carousel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/widgets/magellan-post-list-with-heading.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/widgets/magellan-post-tabs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/widgets/magellan-recent-post-list.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/widgets/magellan-social-share.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/widgets/magellan-tag-cloud.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/widgets/magellan-tweets-embed.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/includes/widgets/magellan-tweets-widget.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/migrate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/plugins/versions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/blog-loop.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/featured-large-post-no-excerpt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/featured-large-post.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/featured-medium-post.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/fixed-trending-slider-item.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/fixed-trending-slider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/gallery-lightbox.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/link-pages.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/login-lightbox.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/loop-default-list-item.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/loop-default-search-item.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/loop-default-single.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/loop-gallery-list-item.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/loop-gallery-search-item.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/loop-gallery-single.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/loop-page-search-item.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/loop.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/menu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/page-woocommerce-content.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/pagination.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/post-author.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/post-categories-compact-dropdown.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/post-categories-compact.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/post-categories.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/post-controls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/post-editors-choice-small.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/post-editors-choice.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/post-full-width.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/post-image-full-screen.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/post-image-medium.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/post-image-small.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/post-image-video.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/post-list-item-compact.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/post-list-item-large.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/post-list-item-medium-with-overlay.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/post-list-item-medium.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/post-list-item-small.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/post-list-item.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/post-previous-next-item.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/post-previous-next.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/post-regular.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/post-slider-item-large.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/post-slider-item.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/post-tags.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/search-lightbox.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/social-icons.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/title-legend.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/trending-news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/templates/widget-post-item.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/theme/theme.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/woocommerce.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/magellan/wpml-config.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/404.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/archive.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/author-bio.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/comments.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-link.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-none.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-search.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/css/editor-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/css/ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/css/ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/COPYING.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/Genericons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/Genericons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/Genericons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/Genericons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/genericons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/back-compat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/custom-header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/customizer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/template-tags.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/color-scheme-control.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/customize-preview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/html5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/keyboard-image-navigation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/skip-link-focus-fix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/screenshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/search.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/sidebar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/single.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/404.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/archive.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/css/colors-dark.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/css/editor-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/css/ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/css/ie9.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/images/coffee.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/images/espresso.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/images/header.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/images/sandwich.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/images/svg-icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/customize-controls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/customize-preview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/html5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/navigation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/skip-link-focus-fix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/comments.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/front-page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/back-compat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/color-patterns.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/custom-header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/customizer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/icon-functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/template-functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/template-tags.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/screenshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/search.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/searchform.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/sidebar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/single.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/footer/footer-widgets.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/footer/site-info.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/header/header-image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/header/site-branding.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/navigation/navigation-top.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/page/content-front-page-panels.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/page/content-front-page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/page/content-page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-audio.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-excerpt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-gallery.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-none.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-video.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/404.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/archive.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/comments.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/css/editor-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/css/ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/css/ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/css/ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/genericons/COPYING.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/genericons/Genericons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/genericons/Genericons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/genericons/Genericons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/genericons/Genericons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/genericons/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/genericons/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/genericons/genericons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/inc/back-compat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/inc/customizer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/inc/template-tags.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/js/color-scheme-control.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/js/customize-preview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/js/functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/js/html5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/js/keyboard-image-navigation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/js/skip-link-focus-fix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/screenshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/search.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/searchform.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/sidebar-content-bottom.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/sidebar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/single.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/template-parts/biography.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/template-parts/content-none.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/template-parts/content-page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/template-parts/content-search.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/template-parts/content-single.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/template-parts/content.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/it_IT.mo" afterPath="$PROJECT_DIR$/wp-content/languages/it_IT.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/admin-it_IT.po" afterPath="$PROJECT_DIR$/wp-content/languages/admin-it_IT.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/it_IT.po" afterPath="$PROJECT_DIR$/wp-content/languages/it_IT.po" />
+    </list>
     <ignored path="conibambini.it.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -21,50 +454,10 @@
     <favorites_list name="conibambini.it" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.730769">
-              <caret line="58" column="58" selection-start-line="0" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wp-config-sample.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-config-sample.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.375">
-              <caret line="74" column="75" selection-start-line="74" selection-start-column="75" selection-end-line="74" selection-end-column="75" />
-              <folding>
-                <element signature="e#6#463#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conibambini.it" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DDL/nginx/conibambini.it">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LEGGIMI" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DDL/LEGGIMI">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -72,6 +465,7 @@
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-config-sample.php" />
         <option value="$PROJECT_DIR$/DDL/nginx/conibambini.it" />
+        <option value="$PROJECT_DIR$/DDL/LEGGIMI" />
       </list>
     </option>
   </component>
@@ -82,6 +476,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+    <option name="x" value="11" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1025" />
@@ -112,6 +507,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -140,24 +536,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conibambini.it" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conibambini.it" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conibambini.it" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conibambini.it" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="DDL" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../golden-collagen" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/themes" />
       <recent name="$PROJECT_DIR$/DDL/nginx/global" />
     </key>
   </component>
@@ -177,6 +605,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -197,24 +630,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1025" extended-state="6" />
-    <editor active="true" />
+    <frame x="11" y="23" width="1920" height="1025" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25239617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25772098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -227,37 +660,31 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
+    <entry file="file://$PROJECT_DIR$/DDL/LEGGIMI">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.730769">
-          <caret line="58" column="58" selection-start-line="0" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config-sample.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.375">
-          <caret line="74" column="75" selection-start-line="74" selection-start-column="75" selection-end-line="74" selection-end-column="75" />
-          <folding>
-            <element signature="e#6#463#0#PHP" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.54310346">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DDL/nginx/conibambini.it">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.38793105">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DDL/LEGGIMI">
+    <entry file="file://$PROJECT_DIR$/wp-config-sample.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.83633095">
+          <caret line="74" column="75" selection-start-line="74" selection-start-column="75" selection-end-line="74" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.89043826">
+          <caret line="58" column="58" selection-start-line="0" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
         </state>
       </provider>
     </entry>

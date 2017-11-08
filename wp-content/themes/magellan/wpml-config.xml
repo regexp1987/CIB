@@ -1,0 +1,8 @@
+<wpml-config>
+    <admin-texts>
+        <key name="magellan_copyright" />
+		<key name="magellan_header_info_text" />
+		<key name="magellan_blog_title" />
+		<key name="magellan_copyright" />
+   </admin-texts>
+</wpml-config>

@@ -1,0 +1,1698 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: magellan\n"
+"POT-Creation-Date: 2017-07-30 23:24+0300\n"
+"PO-Revision-Date: 2016-03-16 18:56+0200\n"
+"Last-Translator: \n"
+"Language-Team: planetshine\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n;_x;esc_attr__;"
+"esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n !=1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: planetshine-magellan/404.php:5
+msgid "Page not found"
+msgstr ""
+
+#: planetshine-magellan/404.php:6
+msgid ""
+"The page you are looking for could have been deleted, or has never existed."
+msgstr ""
+
+#: planetshine-magellan/404.php:7
+msgid "You can go back"
+msgstr ""
+
+#: planetshine-magellan/404.php:7
+msgid "Home"
+msgstr ""
+
+#: planetshine-magellan/404.php:7
+msgid "or try to search something else"
+msgstr ""
+
+#: planetshine-magellan/archive-gallery.php:5
+#: planetshine-magellan/theme/templates/loop-gallery-single.php:5
+msgid "Photo galleries"
+msgstr ""
+
+#: planetshine-magellan/archive-gallery.php:53
+#: planetshine-magellan/buddypress.php:21
+#: planetshine-magellan/page-layout.php:15
+#: planetshine-magellan/theme/templates/blog-loop.php:104
+#: planetshine-magellan/theme/templates/loop.php:58
+msgid "no posts found!"
+msgstr ""
+
+#: planetshine-magellan/comments.php:9
+#: planetshine-magellan/theme/includes/widgets/magellan-post-tabs.php:72
+msgid "Comments"
+msgstr ""
+
+#: planetshine-magellan/comments.php:19
+#: planetshine-magellan/theme/templates/post-previous-next.php:19
+msgid "Previous"
+msgstr ""
+
+#: planetshine-magellan/comments.php:20
+#: planetshine-magellan/theme/templates/post-previous-next.php:31
+msgid "Next"
+msgstr ""
+
+#: planetshine-magellan/comments.php:38
+msgid "Name"
+msgstr ""
+
+#: planetshine-magellan/comments.php:43
+msgid "E-mail"
+msgstr ""
+
+#: planetshine-magellan/comments.php:48
+msgid "Website"
+msgstr ""
+
+#: planetshine-magellan/comments.php:54
+msgid "Log out"
+msgstr ""
+
+#: planetshine-magellan/comments.php:55
+msgid "Post comment"
+msgstr ""
+
+#: planetshine-magellan/comments.php:55
+msgid "Your email address will not be published. Required fields are marked "
+msgstr ""
+
+#: planetshine-magellan/core/lib/envatoProtectedAPI.class.php:71
+msgid "Please enter your Envato Marketplace Username."
+msgstr ""
+
+#: planetshine-magellan/core/lib/envatoProtectedAPI.class.php:75
+msgid "Please enter your Envato Marketplace API Key."
+msgstr ""
+
+#: planetshine-magellan/core/lib/envatoProtectedAPI.class.php:100
+msgid "The API \"set\" is a required parameter."
+msgstr ""
+
+#: planetshine-magellan/core/lib/envatoProtectedAPI.class.php:171
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:333
+#: planetshine-magellan/theme/theme.php:1664
+msgid "Install Required Plugins"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:334
+#: planetshine-magellan/theme/theme.php:1665
+msgid "Install Plugins"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:335
+#: planetshine-magellan/theme/theme.php:1666
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:336
+#: planetshine-magellan/theme/theme.php:1667
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:397
+#: planetshine-magellan/theme/theme.php:1678
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:399
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:3027
+#: planetshine-magellan/theme/theme.php:1679
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:400
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2830
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:521
+msgid "Update Required"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:635
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:824
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2420
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:3436
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:931
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:931
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:934
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:934
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:1877
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2163
+msgid "Required"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2166
+msgid "Recommended"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2182
+msgid "WordPress Repository"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2185
+msgid "External Source"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2188
+msgid "Pre-Packaged"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2205
+msgid "Not Installed"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2209
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2211
+msgid "Active"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2217
+msgid "Required Update not Available"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2220
+msgid "Requires Update"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2223
+msgid "Update recommended"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2231
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2279
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2282
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2285
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2367
+msgid "unknown"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2375
+msgid "Installed version:"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2383
+msgid "Minimum required version:"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2395
+msgid "Available version:"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2419
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2434
+msgid "Plugin"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2435
+msgid "Source"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2436
+msgid "Type"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2440
+msgid "Version"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2441
+msgid "Status"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2489
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2493
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2498
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2568
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2601
+msgid "Install"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2607
+msgid "Update"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2610
+msgid "Activate"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2641
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2643
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2679
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2681
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2786
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:2812
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:3026
+msgid "Plugin activation failed."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:3360
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:3362
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:3363
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:3367
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:3368
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:3368
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:3374
+msgid "Show Details"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:3368
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:3374
+msgid "Hide Details"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:3369
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:3370
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:3373
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:3374
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:3375
+msgid "All installations have been completed."
+msgstr ""
+
+#: planetshine-magellan/core/lib/tgmPluginActivation.class.php:3376
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: planetshine-magellan/core/panel/admin-functions.php:489
+msgid "Select file"
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/ads-locations.php:52
+msgid "Check ads for this location"
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/ads-locations.php:52
+msgid "If you select more than one ad, then they will be shown in a rotation"
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/ads-locations.php:80
+msgid "There are no active ads for this location! "
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/ads-locations.php:80
+#: planetshine-magellan/theme/includes/widgets/magellan-banner-large.php:138
+msgid "Supports: "
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/backup-reset.php:2
+msgid "Backup Settings"
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/backup-reset.php:16
+msgid "Import Settings"
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/backup-reset.php:29
+msgid "Import"
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/backup-reset.php:35
+msgid "Reset Settings"
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/backup-reset.php:37
+msgid "Reset Theme"
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/demo-import.php:266
+msgid ""
+"Please active the \"Planetshine Magellan Theme Extension\" plugin to enable "
+"the demo import feature"
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/google-fonts.php:17
+msgid "All Google fonts"
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/google-fonts.php:33
+msgid "Selected"
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/google-fonts.php:48
+#: planetshine-magellan/theme/includes/settings.php:46
+msgid "Default"
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/install-pages.php:4
+msgid ""
+"Use page installer to re-create pages from Magellan theme demo in your site."
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/install-pages.php:5
+msgid "This will only set the content for the page"
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/install-pages.php:5
+msgid "- color settings etc will not be affected"
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/install-pages.php:123
+msgid ""
+"Please active the \"Planetshine Magellan Theme Extension\" plugin to enable "
+"the page install"
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/register-theme.php:10
+#: planetshine-magellan/core/panel/templates/register-theme.php:62
+msgid "Register your theme"
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/register-theme.php:13
+msgid ""
+"Registering will enable to you to update the theme automatically from wp-"
+"admin and simplify getting support."
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/register-theme.php:15
+msgid "To register take the following 3 steps:"
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/register-theme.php:26
+msgid "Theme has been registered successfully!"
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/register-theme.php:69
+msgid "Cancel your registration"
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/register-theme.php:120
+msgid "Theme Registered Successfully!"
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/register-theme.php:124
+msgid "Registration Canceled!"
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/sidebar-manager.php:21
+msgid "All Sidebars"
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/sidebar-manager.php:36
+msgid "Create Sidebar"
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/sidebar-manager.php:55
+msgid "Manage Sidebars"
+msgstr ""
+
+#: planetshine-magellan/core/panel/templates/status.php:103
+msgid ""
+"Please active the \"Planetshine Magellan Theme Extension\" plugin to enable "
+"the status page"
+msgstr ""
+
+#: planetshine-magellan/core/shared-functions.php:225
+msgid ""
+"If your blog already has posts with images, please <strong>Install</strong> "
+"& <strong>Run</strong> the bundled <strong>Regenerate Thumbnails</strong> "
+"plugin! This will ensure faster page load speeds."
+msgstr ""
+
+#: planetshine-magellan/core/shared-functions.php:226
+#: planetshine-magellan/core/shared-functions.php:274
+msgid "dismiss"
+msgstr ""
+
+#: planetshine-magellan/core/shared-functions.php:269
+msgid "Click here to"
+msgstr ""
+
+#: planetshine-magellan/core/shared-functions.php:270
+msgid "import full theme demo"
+msgstr ""
+
+#: planetshine-magellan/core/shared-functions.php:271
+msgid "Or click here to"
+msgstr ""
+
+#: planetshine-magellan/core/shared-functions.php:272
+msgid "import homepage and other individual pages"
+msgstr ""
+
+#: planetshine-magellan/core/shared-functions.php:293
+msgid ""
+"Theme needs to update your sites database to ensure full compatibility with "
+"the latest version of theme."
+msgstr ""
+
+#: planetshine-magellan/core/shared-functions.php:294
+msgid "Click here to update"
+msgstr ""
+
+#: planetshine-magellan/core/shared-functions.php:309
+msgid "The pages have been installed successfully!"
+msgstr ""
+
+#: planetshine-magellan/core/shared-functions.php:834
+msgid "Failed to put file"
+msgstr ""
+
+#: planetshine-magellan/core/template-functions.php:271
+msgid "Page"
+msgstr ""
+
+#: planetshine-magellan/core/template-functions.php:580
+msgid "Search results for"
+msgstr ""
+
+#: planetshine-magellan/search.php:6
+msgid "Search results"
+msgstr ""
+
+#: planetshine-magellan/search.php:17
+msgid "Searched for:"
+msgstr ""
+
+#: planetshine-magellan/search.php:19
+msgid "results found"
+msgstr ""
+
+#: planetshine-magellan/searchform.php:2
+#: planetshine-magellan/theme/templates/search-lightbox.php:6
+msgid "Search"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/google-fonts.php:11
+#: planetshine-magellan/theme/includes/google-fonts.php:17
+#: planetshine-magellan/theme/includes/google-fonts.php:23
+#: planetshine-magellan/theme/includes/google-fonts.php:29
+#: planetshine-magellan/theme/includes/google-fonts.php:35
+#: planetshine-magellan/theme/includes/google-fonts.php:41
+#: planetshine-magellan/theme/includes/google-fonts.php:47
+#: planetshine-magellan/theme/includes/google-fonts.php:53
+#: planetshine-magellan/theme/includes/google-fonts.php:59
+#: planetshine-magellan/theme/includes/google-fonts.php:65
+#: planetshine-magellan/theme/includes/google-fonts.php:71
+#: planetshine-magellan/theme/includes/google-fonts.php:77
+#: planetshine-magellan/theme/includes/google-fonts.php:83
+#: planetshine-magellan/theme/includes/google-fonts.php:89
+#: planetshine-magellan/theme/includes/google-fonts.php:95
+#: planetshine-magellan/theme/includes/google-fonts.php:101
+#: planetshine-magellan/theme/includes/google-fonts.php:107
+#: planetshine-magellan/theme/includes/google-fonts.php:113
+#: planetshine-magellan/theme/includes/google-fonts.php:119
+#: planetshine-magellan/theme/includes/google-fonts.php:125
+#: planetshine-magellan/theme/includes/google-fonts.php:131
+#: planetshine-magellan/theme/includes/google-fonts.php:137
+#: planetshine-magellan/theme/includes/google-fonts.php:143
+#: planetshine-magellan/theme/includes/google-fonts.php:149
+#: planetshine-magellan/theme/includes/google-fonts.php:155
+#: planetshine-magellan/theme/includes/google-fonts.php:161
+#: planetshine-magellan/theme/includes/google-fonts.php:167
+#: planetshine-magellan/theme/includes/google-fonts.php:173
+#: planetshine-magellan/theme/includes/google-fonts.php:179
+msgid "on"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/settings.php:48
+msgid "Default Sidebar"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/settings.php:56
+msgid "Footer"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/settings.php:58
+msgid "Footer Sidebar"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/settings.php:66
+#: planetshine-magellan/theme/includes/vc-blocks/gallery-embed.php:34
+msgid "Gallery"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/settings.php:68
+msgid "Gallery Sidebar"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/settings.php:76
+msgid "Search Lightbox"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/settings.php:78
+msgid "Search Lightbox Widgets"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/banner300.php:24
+msgid "Banner 300x300"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/banner300.php:27
+#: planetshine-magellan/theme/includes/vc-blocks/banner728.php:27
+#: planetshine-magellan/theme/includes/vc-blocks/banner970.php:27
+msgid "Magellan Banners"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/banner300.php:33
+#: planetshine-magellan/theme/includes/vc-blocks/banner728.php:33
+#: planetshine-magellan/theme/includes/vc-blocks/banner970.php:33
+msgid "Banner"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/banner300.php:36
+msgid ""
+"Display 300x300px banners.  Check more than one to have multiple banners in "
+"rotation"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/banner728.php:24
+msgid "Banner 728x90"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/banner728.php:36
+msgid ""
+"Display 728x90 banners. Check more than one to have multiple banners in "
+"rotation"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/banner970.php:24
+msgid "Banner 970x90"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/banner970.php:36
+msgid ""
+"Display 970x90 banners. Check more than one to have multiple banners in "
+"rotation"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/compact-post-columns.php:24
+msgid "Compact post columns"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/compact-post-columns.php:25
+msgid "Columns with post titles and small thumbnails "
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/compact-post-columns.php:29
+#: planetshine-magellan/theme/includes/vc-blocks/exclusive-post.php:21
+#: planetshine-magellan/theme/includes/vc-blocks/home-slider-item.php:22
+#: planetshine-magellan/theme/includes/vc-blocks/home-slider.php:24
+#: planetshine-magellan/theme/includes/vc-blocks/news-block-with-scroll-list.php:29
+#: planetshine-magellan/theme/includes/vc-blocks/news-ticker.php:21
+#: planetshine-magellan/theme/includes/vc-blocks/photo-galleries.php:21
+#: planetshine-magellan/theme/includes/vc-blocks/post-category-slider.php:33
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-compact-items.php:29
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-large-items.php:29
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-with-heading.php:29
+#: planetshine-magellan/theme/includes/vc-blocks/post-slider-large.php:29
+#: planetshine-magellan/theme/includes/vc-blocks/title-block.php:19
+msgid "Magellan"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/compact-post-columns.php:35
+#: planetshine-magellan/theme/includes/vc-blocks/news-block-with-scroll-list.php:35
+#: planetshine-magellan/theme/includes/vc-blocks/news-ticker.php:27
+#: planetshine-magellan/theme/includes/vc-blocks/photo-galleries.php:27
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-compact-items.php:35
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-large-items.php:35
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-with-heading.php:35
+#: planetshine-magellan/theme/includes/vc-blocks/post-slider-large.php:35
+#: planetshine-magellan/theme/includes/vc-blocks/title-block.php:25
+msgid "Title"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/compact-post-columns.php:37
+#: planetshine-magellan/theme/includes/vc-blocks/compact-post-columns.php:80
+#: planetshine-magellan/theme/includes/vc-blocks/news-block-with-scroll-list.php:37
+#: planetshine-magellan/theme/includes/vc-blocks/news-block-with-scroll-list.php:71
+#: planetshine-magellan/theme/includes/vc-blocks/photo-galleries.php:29
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-compact-items.php:37
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-compact-items.php:71
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-large-items.php:37
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-large-items.php:71
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-with-heading.php:37
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-with-heading.php:71
+#: planetshine-magellan/theme/includes/vc-blocks/post-slider-large.php:37
+#: planetshine-magellan/theme/includes/vc-blocks/post-slider-large.php:71
+#: planetshine-magellan/theme/includes/vc-blocks/title-block.php:27
+msgid "Latest news"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/compact-post-columns.php:38
+#: planetshine-magellan/theme/includes/vc-blocks/news-block-with-scroll-list.php:38
+#: planetshine-magellan/theme/includes/vc-blocks/news-ticker.php:30
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-compact-items.php:38
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-large-items.php:38
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-with-heading.php:38
+#: planetshine-magellan/theme/includes/vc-blocks/post-slider-large.php:38
+msgid "The title for post block"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/compact-post-columns.php:44
+#: planetshine-magellan/theme/includes/vc-blocks/news-block-with-scroll-list.php:44
+#: planetshine-magellan/theme/includes/vc-blocks/news-ticker.php:36
+#: planetshine-magellan/theme/includes/vc-blocks/photo-galleries.php:36
+#: planetshine-magellan/theme/includes/vc-blocks/post-category-slider.php:57
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-compact-items.php:44
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-large-items.php:44
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-with-heading.php:44
+#: planetshine-magellan/theme/includes/vc-blocks/post-slider-large.php:44
+msgid "Count"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/compact-post-columns.php:47
+#: planetshine-magellan/theme/includes/vc-blocks/news-block-with-scroll-list.php:47
+#: planetshine-magellan/theme/includes/vc-blocks/news-ticker.php:39
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-compact-items.php:47
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-large-items.php:47
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-with-heading.php:47
+#: planetshine-magellan/theme/includes/vc-blocks/post-slider-large.php:47
+msgid "How many posts should be shown"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/compact-post-columns.php:53
+#: planetshine-magellan/theme/includes/vc-blocks/photo-galleries.php:45
+msgid "Columns"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/compact-post-columns.php:56
+#: planetshine-magellan/theme/includes/vc-blocks/photo-galleries.php:48
+msgid "How many columns per row"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/compact-post-columns.php:62
+#: planetshine-magellan/theme/includes/vc-blocks/news-block-with-scroll-list.php:53
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-compact-items.php:53
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-large-items.php:53
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-with-heading.php:53
+#: planetshine-magellan/theme/includes/vc-blocks/post-slider-large.php:53
+msgid "Post category"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/compact-post-columns.php:65
+#: planetshine-magellan/theme/includes/vc-blocks/news-block-with-scroll-list.php:56
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-compact-items.php:56
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-large-items.php:56
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-with-heading.php:56
+#: planetshine-magellan/theme/includes/vc-blocks/post-slider-large.php:56
+msgid "List posts from specific category"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/compact-post-columns.php:130
+#: planetshine-magellan/theme/includes/vc-blocks/news-block-with-scroll-list.php:132
+#: planetshine-magellan/theme/includes/vc-blocks/photo-galleries.php:88
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-compact-items.php:108
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-large-items.php:108
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-with-heading.php:132
+#: planetshine-magellan/theme/includes/widgets/magellan-dropdown-category-posts.php:142
+#: planetshine-magellan/theme/includes/widgets/magellan-dropdown-featured-post-list.php:105
+#: planetshine-magellan/theme/includes/widgets/magellan-post-list-with-heading.php:112
+#: planetshine-magellan/theme/includes/widgets/magellan-recent-post-list.php:88
+msgid "View all"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/exclusive-post.php:16
+msgid "Exclusive post"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/exclusive-post.php:17
+msgid "Embed a specially styled singe post block"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/exclusive-post.php:28
+#: planetshine-magellan/theme/includes/vc-blocks/home-slider-item.php:29
+#: planetshine-magellan/theme/theme.php:533
+msgid "Post ID"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/exclusive-post.php:31
+msgid "The ID of the post you wish to display"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/exclusive-post.php:37
+msgid "Image position"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/exclusive-post.php:40
+msgid "Which side should the image be on"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/exclusive-post.php:83
+#: planetshine-magellan/theme/templates/post-list-item-compact.php:18
+#: planetshine-magellan/theme/templates/post-list-item-large.php:18
+#: planetshine-magellan/theme/templates/post-list-item-medium-with-overlay.php:30
+#: planetshine-magellan/theme/templates/post-list-item-medium.php:18
+#: planetshine-magellan/theme/templates/post-list-item-small.php:36
+msgid "Hot"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/exclusive-post.php:86
+#: planetshine-magellan/theme/includes/vc-blocks/home-slider-item.php:116
+#: planetshine-magellan/theme/templates/featured-large-post-no-excerpt.php:14
+#: planetshine-magellan/theme/templates/featured-large-post.php:18
+#: planetshine-magellan/theme/templates/featured-medium-post.php:18
+#: planetshine-magellan/theme/templates/loop-default-list-item.php:49
+#: planetshine-magellan/theme/templates/loop-default-search-item.php:36
+#: planetshine-magellan/theme/templates/loop-gallery-search-item.php:47
+#: planetshine-magellan/theme/templates/post-list-item-compact.php:39
+#: planetshine-magellan/theme/templates/post-list-item-large.php:39
+#: planetshine-magellan/theme/templates/post-list-item-medium-with-overlay.php:15
+#: planetshine-magellan/theme/templates/post-list-item-small.php:11
+#: planetshine-magellan/theme/templates/post-previous-next-item.php:42
+#: planetshine-magellan/theme/templates/post-slider-item-large.php:19
+#: planetshine-magellan/theme/templates/post-slider-item.php:20
+msgid "Read more"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/gallery-embed.php:25
+msgid "Gallery embed"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/gallery-embed.php:28
+#: planetshine-magellan/theme/includes/vc-blocks/review-summary.php:19
+msgid "Magellan Post Blocks"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/gallery-embed.php:37
+msgid "Select which gallery to embed in the post"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/gallery-embed.php:81
+msgid "View all photos"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/home-slider-item.php:16
+msgid "Home slider item"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/home-slider-item.php:17
+msgid "Item for home slider"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/home-slider-item.php:32
+msgid "The ID of the post you wish to display in this slide"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/home-slider-item.php:38
+msgid "Slider image"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/home-slider-item.php:41
+msgid "Recommended size - 1980x500px"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/home-slider.php:16
+msgid "Home slider"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/home-slider.php:17
+msgid "Display large home slider for posts with optional sidebar"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/home-slider.php:30
+msgid "Show post switcher sidebar"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/home-slider.php:33
+msgid ""
+"Display tabbed switcher with popular, latest and recently commented posts"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/news-block-with-scroll-list.php:24
+msgid "Post category with large featured item"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/news-block-with-scroll-list.php:25
+msgid "Large featured post and scrollable post list. 2/3 width recommended"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/news-ticker.php:16
+msgid "Trending news ticker"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/news-ticker.php:17
+msgid "Popular post title slider"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/news-ticker.php:29
+#: planetshine-magellan/theme/includes/vc-blocks/news-ticker.php:54
+msgid "Trending"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/photo-galleries.php:16
+msgid "Latest photo galleries"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/photo-galleries.php:17
+msgid "List of photo galleries"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/photo-galleries.php:30
+msgid "The title for gallery block"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/photo-galleries.php:39
+msgid "How many galleries should be shown"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/photo-galleries.php:63
+msgid "Latest Photo Galleries"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/post-category-slider.php:28
+msgid "Post category slider"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/post-category-slider.php:29
+msgid "Display post slider with category tabs"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/post-category-slider.php:39
+msgid "Post categories"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/post-category-slider.php:42
+msgid "Check which categories to show in tabs"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/post-category-slider.php:48
+msgid "Show first"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/post-category-slider.php:51
+msgid "Select which categories to show first. Must be checked in above."
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/post-category-slider.php:60
+msgid "How many posts should be shown per category"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/post-category-slider.php:66
+msgid "Interval"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/post-category-slider.php:69
+msgid ""
+"The amount of miliseconds to delay between advancing the slider. Entering 0 "
+"will disable auto advance."
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-compact-items.php:24
+msgid "Post list with large items (text on side)"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-compact-items.php:25
+msgid ""
+"Blog like post list with large items that have text on side. 1/3 to 2/3 "
+"width recommended"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-large-items.php:24
+msgid "Post list with large items (text below image)"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-large-items.php:25
+msgid ""
+"Blog like post list with large items that have text below image. 1/3 to 2/3 "
+"width recommended"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-with-heading.php:24
+msgid "Post list with Heading"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/post-list-with-heading.php:25
+#: planetshine-magellan/theme/includes/widgets/magellan-post-list-with-heading.php:13
+msgid "Large featured post followed by list of smaller posts"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/post-slider-large.php:24
+msgid "Large post slider"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/post-slider-large.php:25
+msgid "Large slider with 2 columns"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/review-summary.php:16
+msgid "Review Summary"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/review-summary.php:25
+msgid "Rating"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/review-summary.php:28
+msgid ""
+"List of Ratings. Enter them in format like this: [rating title=\"Design\" "
+"value=\"4\"] This will result in \"Design\" being rated with 4 out of 5"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/review-summary.php:34
+msgid "Enable reader ratings?"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/review-summary.php:37
+msgid "Allow your visitors to rate the product"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/review-summary.php:43
+msgid "Heading for positive feature list"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/review-summary.php:45
+#: planetshine-magellan/theme/includes/vc-blocks/review-summary.php:86
+msgid "What's good"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/review-summary.php:51
+msgid "Positives"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/review-summary.php:54
+msgid "List of positives. Enter each item in new row."
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/review-summary.php:60
+msgid "Negative for positive feature list"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/review-summary.php:62
+#: planetshine-magellan/theme/includes/vc-blocks/review-summary.php:87
+msgid "What's bad"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/review-summary.php:68
+msgid "Negatives"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/review-summary.php:71
+msgid "List of negatives. Enter each item in new row."
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/review-summary.php:112
+msgid "You rated:"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/review-summary.php:112
+msgid "Rating saved"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/review-summary.php:128
+msgid "Reader rating"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/review-summary.php:132
+msgid "Drag to rate"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/vc-blocks/title-block.php:16
+msgid "Title block"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-about.php:13
+msgid "Display your site name, description and social links"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-about.php:15
+msgid "Magellan About"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-about.php:101
+#: planetshine-magellan/theme/includes/widgets/magellan-newsletter-social.php:123
+msgid "Description:"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-about.php:106
+#: planetshine-magellan/theme/includes/widgets/magellan-newsletter-social.php:134
+msgid "Show social icons?"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-banner-large.php:13
+msgid "300x300px banner"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-banner-large.php:15
+msgid "Magellan Sidebar Banner"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-banner-large.php:124
+msgid "Banners:"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-banner-large.php:137
+msgid "There are no active ads for this location. "
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-banner-large.php:139
+msgid "Create a new Ad!"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-category-scroller.php:13
+msgid "Magellan list of categories with a scrollbar"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-category-scroller.php:15
+#: planetshine-magellan/theme/includes/widgets/magellan-category-scroller.php:46
+msgid "Magellan Category Scroller"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-category-scroller.php:113
+#: planetshine-magellan/theme/includes/widgets/magellan-dropdown-featured-post-list.php:156
+#: planetshine-magellan/theme/includes/widgets/magellan-dropdown-latest-videos.php:126
+#: planetshine-magellan/theme/includes/widgets/magellan-dropdown-post-list-with-heading.php:200
+#: planetshine-magellan/theme/includes/widgets/magellan-newsletter-social.php:118
+#: planetshine-magellan/theme/includes/widgets/magellan-post-carousel.php:174
+#: planetshine-magellan/theme/includes/widgets/magellan-post-list-with-heading.php:193
+#: planetshine-magellan/theme/includes/widgets/magellan-recent-post-list.php:158
+#: planetshine-magellan/theme/includes/widgets/magellan-social-share.php:137
+#: planetshine-magellan/theme/includes/widgets/magellan-tag-cloud.php:110
+#: planetshine-magellan/theme/includes/widgets/magellan-tweets-widget.php:94
+msgid "Title:"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-category-scroller.php:117
+#: planetshine-magellan/theme/includes/widgets/magellan-tag-cloud.php:114
+msgid "Max count:"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-dropdown-category-posts.php:13
+msgid "Display dynamically switchabe post categories"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-dropdown-category-posts.php:15
+msgid "Magellan Dropdown Post Categories"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-dropdown-category-posts.php:56
+msgid "All recent articles"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-dropdown-category-posts.php:187
+msgid "Categories:"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-dropdown-featured-post-list.php:13
+msgid "Row of large featured posts"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-dropdown-featured-post-list.php:15
+msgid "Magellan Dropdown Featured Post List"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-dropdown-featured-post-list.php:48
+msgid "Featured Posts"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-dropdown-featured-post-list.php:161
+#: planetshine-magellan/theme/includes/widgets/magellan-dropdown-post-list-with-heading.php:204
+#: planetshine-magellan/theme/includes/widgets/magellan-dropdown-post-list-with-sidemenu.php:196
+#: planetshine-magellan/theme/includes/widgets/magellan-post-carousel.php:184
+#: planetshine-magellan/theme/includes/widgets/magellan-post-list-with-heading.php:203
+#: planetshine-magellan/theme/includes/widgets/magellan-recent-post-list.php:168
+msgid "Category:"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-dropdown-latest-videos.php:13
+msgid "Row of latest videos"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-dropdown-latest-videos.php:15
+msgid "Magellan Dropdown Latest Videos"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-dropdown-latest-videos.php:48
+msgid "Latest videos"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-dropdown-post-list-with-heading.php:13
+msgid "Post list with one large featured post"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-dropdown-post-list-with-heading.php:15
+msgid "Magellan Dropdown Post List With Featured Item"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-dropdown-post-list-with-heading.php:49
+#: planetshine-magellan/theme/includes/widgets/magellan-post-carousel.php:48
+#: planetshine-magellan/theme/includes/widgets/magellan-post-list-with-heading.php:48
+#: planetshine-magellan/theme/includes/widgets/magellan-recent-post-list.php:48
+#: planetshine-magellan/theme/includes/widgets/magellan-social-share.php:48
+msgid "Recent Posts"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-dropdown-post-list-with-sidemenu.php:13
+msgid "Post list with sidemenu and a large featured post"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-dropdown-post-list-with-sidemenu.php:15
+msgid "Magellan Dropdown Post List With Sidemenu"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-dropdown-post-list-with-sidemenu.php:204
+msgid "Menu:"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-newsletter-social.php:13
+msgid "Display a newsletter signup form"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-newsletter-social.php:15
+msgid "Magellan Newsletter & Social Networks"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-newsletter-social.php:47
+msgid "Follow us"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-newsletter-social.php:71
+msgid "E-mail address"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-newsletter-social.php:71
+msgid "Subscribe"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-newsletter-social.php:129
+msgid "Show newsletter form?"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-post-carousel.php:13
+msgid "Post slider with large images"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-post-carousel.php:15
+msgid "Magellan Post Carousel"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-post-carousel.php:179
+#: planetshine-magellan/theme/includes/widgets/magellan-post-list-with-heading.php:198
+#: planetshine-magellan/theme/includes/widgets/magellan-post-tabs.php:201
+#: planetshine-magellan/theme/includes/widgets/magellan-recent-post-list.php:163
+msgid "Post count:"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-post-list-with-heading.php:15
+msgid "Magellan Post List With Heading"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-post-tabs.php:13
+msgid "Post tabs - latest, popular and recently commented posts "
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-post-tabs.php:15
+msgid "Magellan Post Tabs"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-post-tabs.php:64
+msgid "Popular"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-post-tabs.php:68
+msgid "Recent"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-post-tabs.php:206
+msgid "Date range for popular items:"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-recent-post-list.php:13
+msgid "List of recent posts"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-recent-post-list.php:15
+msgid "Magellan Recent Post List"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-social-share.php:13
+msgid "Share icons for single posts, pages and galleries"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-social-share.php:15
+msgid "Magellan Social Share"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-social-share.php:95
+msgid "Pin it"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-social-share.php:96
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-social-share.php:140
+msgid "Social share settings can be setup in theme settings"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-tag-cloud.php:13
+msgid "Custom tag cloud for Magellan"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-tag-cloud.php:15
+#: planetshine-magellan/theme/includes/widgets/magellan-tag-cloud.php:46
+msgid "Magellan Tag Cloud"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-tweets-widget.php:13
+msgid "Display latest tweets."
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-tweets-widget.php:15
+msgid "Magellan Twitter Feed"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-tweets-widget.php:46
+msgid "Magellan Twitter feed"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-tweets-widget.php:97
+msgid "Widget id:"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-tweets-widget.php:102
+msgid "Light"
+msgstr ""
+
+#: planetshine-magellan/theme/includes/widgets/magellan-tweets-widget.php:106
+msgid "Dark"
+msgstr ""
+
+#: planetshine-magellan/theme/templates/gallery-lightbox.php:53
+#: planetshine-magellan/theme/templates/loop-gallery-single.php:74
+msgid "Photos"
+msgstr ""
+
+#: planetshine-magellan/theme/templates/header.php:52
+msgid "Sign out"
+msgstr ""
+
+#: planetshine-magellan/theme/templates/header.php:54
+msgid "Account"
+msgstr ""
+
+#: planetshine-magellan/theme/templates/link-pages.php:9
+msgid "Next page"
+msgstr ""
+
+#: planetshine-magellan/theme/templates/link-pages.php:10
+msgid "Previous page"
+msgstr ""
+
+#: planetshine-magellan/theme/templates/login-lightbox.php:7
+msgid "Username"
+msgstr ""
+
+#: planetshine-magellan/theme/templates/login-lightbox.php:10
+msgid "Password"
+msgstr ""
+
+#: planetshine-magellan/theme/templates/login-lightbox.php:13
+msgid "Login"
+msgstr ""
+
+#: planetshine-magellan/theme/templates/login-lightbox.php:16
+msgid "Remember me"
+msgstr ""
+
+#: planetshine-magellan/theme/templates/login-lightbox.php:17
+msgid "Lost your password?"
+msgstr ""
+
+#: planetshine-magellan/theme/templates/loop-gallery-single.php:6
+msgid "Back to gallery list"
+msgstr ""
+
+#: planetshine-magellan/theme/templates/menu.php:4
+msgid "Main menu"
+msgstr ""
+
+#: planetshine-magellan/theme/templates/post-author.php:9
+msgid "About author"
+msgstr ""
+
+#: planetshine-magellan/theme/templates/post-categories-compact-dropdown.php:11
+#: planetshine-magellan/theme/templates/post-categories-compact.php:11
+msgid "Featured"
+msgstr ""
+
+#: planetshine-magellan/theme/templates/post-controls.php:27
+msgid "views"
+msgstr ""
+
+#: planetshine-magellan/theme/templates/post-controls.php:48
+msgid "Share"
+msgstr ""
+
+#: planetshine-magellan/theme/templates/post-controls.php:55
+msgid "Like"
+msgstr ""
+
+#: planetshine-magellan/theme/templates/post-controls.php:58
+msgid "Dislike"
+msgstr ""
+
+#: planetshine-magellan/theme/templates/post-editors-choice-small.php:8
+#: planetshine-magellan/theme/templates/post-editors-choice.php:16
+msgid "Editors choice"
+msgstr ""
+
+#: planetshine-magellan/theme/templates/post-list-item.php:18
+msgid "Continue reading"
+msgstr ""
+
+#: planetshine-magellan/theme/templates/search-lightbox.php:6
+msgid "Search here"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:109
+msgid "Primary Menu"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:359
+msgid "Post settings"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:381
+msgid "Page settings"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:463
+msgid "This post is featured"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:471
+msgid "Show \"Editors Choice\" label"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:478
+msgid "Post style:"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:481
+#: planetshine-magellan/theme/theme.php:493
+#: planetshine-magellan/theme/theme.php:565
+msgid "Global theme setting"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:482
+msgid "With sidebar"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:483
+msgid "Full width"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:490
+msgid "Image mode:"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:494
+msgid "As wide as text"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:495
+msgid "Site container width (requires sidebar)"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:496
+msgid "Full screen (featured) "
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:497
+msgid "No image"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:498
+msgid "Video"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:499
+msgid "Video with autoplay"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:507
+msgid "Video url (Optional. Used when image mode - video is set):"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:515
+msgid "Stars (for reviews):"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:550
+msgid "Show share icons"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:561
+msgid "Custom sidebar (for pages that have a sidebar):"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:586
+msgid "Full page Revolution Slider (Optional):"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:591
+msgid "Disabled"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:614
+msgid "Additional user information"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:619
+msgid "Position"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:622
+msgid ""
+"Users position in this magazine. For example \"Editor in chief\" or \"Food "
+"critic\""
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:627
+msgid "Twitter account"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:630
+msgid "Twitter account URL"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:635
+msgid "Facebook account"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:638
+msgid "Facebook account URL"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:643
+msgid "Youtube account"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:646
+msgid "Youtube account URL"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:651
+msgid "Google+ account"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:654
+msgid "Google+ account URL"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:659
+msgid "Pinterest account"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:662
+msgid "Pinterest account URL"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:667
+msgid "Instagram account"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:670
+msgid "Instagram account URL"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:782
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:1076
+msgid "Homepage"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:1109
+msgid "Latest posts with videos"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:1187
+msgid "Today"
+msgstr ""
+
+#: planetshine-magellan/theme/theme.php:1680
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""

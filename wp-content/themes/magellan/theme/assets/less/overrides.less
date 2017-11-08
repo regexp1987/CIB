@@ -1,0 +1,1360 @@
+/****************************************************/
+/*						DESKTOP						*/
+/****************************************************/
+
+/* Added some min height to main content wrapper */
+
+.main-content-wrapper {
+    min-height: 300px;
+}
+
+
+.galleries .gallery-block .thumbs .thumb {
+	display: block;
+}
+
+/* Sidebar affix */
+@media only screen and (min-width: 992px) {
+
+	.sidebar-affix-wrap.affix {
+		position: fixed !important;
+		top: 45px;
+	}
+}
+
+.post-featured .overlay-wrapper {
+	transition: none !important;
+}
+
+.magellan_post_carousel {
+	.slide .title .btn {
+		display: none !important;
+	}
+}
+
+/* featured post fadein */
+body.featured-post .post-page-title, body.featured-post .post-page-title .overlay-wrapper {
+	visibility: hidden;
+}
+
+.post-main-wrapper .post-block {
+	display: block;
+}
+
+/* Remove unneded margin */
+
+.comments-wrapper.comments {
+	margin-bottom: 0;
+}
+
+/* Dynamic more dropdown */
+
+.dynamic-more-dropdown {
+	z-index: 99999999 !important;
+	position: absolute;
+}
+
+/* Add side border to home item */
+
+.side-border {
+		
+	&:after {
+		content: "";
+		width: 2px;
+		height: 100%;
+		position: absolute;
+		background: rgba(0, 0, 0, 0.1);
+		display: block;
+		right: 0;
+		left: auto;
+		top: 0;
+	}
+}
+
+/* Prevent scrollbars from being visible trough lighbox blur */
+body.lightboxed-search 
+{
+	> .nicescroll-rails {
+		visibility: hidden;
+	}
+}
+
+/* Fix gallery paddings */
+.post-gallery.gallery-single {
+	padding: 0 15px !important;
+}
+
+/* Fix gallery row margins */
+.post-gallery .galleries > .row {
+    margin: 0;
+}
+
+/* Fix gallery hover bug */
+.galleries .gallery-block .thumbs img, .lightbox-gallery .gallery-block .thumbs img {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+/* Fix post list with heading margins */
+.post-list-with-heading .heading-block {
+	margin-bottom: 20px;
+}
+
+/* Fix post block bottom margin */
+.mega-menu .post-block.post-image-90 {
+	margin-bottom: 0;
+}
+.post-list-with-heading {
+	margin-bottom: 20px;
+}
+
+/* Hide mobile dropdown trigger on desktop */
+.mobile-dropdown-trigger {
+	display: none !important;
+}
+
+/* Hide rating stars in switchable tabs widget and recent post list */
+
+.magellan_sidebar_post_tabs, .magellan_recent_post_list, .post-columns-small {
+	
+	.rating-stars {
+		display: none;
+	}
+}
+
+/* Default WP content styling */
+
+.post-main-wrapper .post-block .the-content-container {
+
+	color: @text-color-1;
+	
+	> table {
+		width: 100%;
+		margin: 0 0 35px 0;
+		
+		td {
+			border-bottom: 1px solid @primary-color-3;
+			padding: 10px;
+		}
+		
+		thead {
+			
+			th {
+				text-transform: uppercase;
+				font-weight: 900;
+				font-size: 15px;
+				border-bottom: 3px solid @primary-color-3;
+				padding: 10px;
+			}
+			
+		}
+		
+		tbody {
+			
+			th {
+				border-bottom: 1px solid @primary-color-3;
+				padding: 10px;
+			}
+			
+		}
+
+	}
+	
+	img { max-width: 100%; height: auto; }
+	iframe { max-width: 100%; }
+	.wp-caption { max-width: 100% !important; }
+	
+	> dl {
+		margin: 35px 0;
+		padding: 0 30px;
+		border-left: 3px solid @primary-color-3;
+		
+		dt {
+			font-size: 15px;
+			font-weight: 900;
+		}
+		
+		dd {
+			margin: 0 0 20px 0;
+		}
+	}
+	
+	cite {
+		display: block;
+		color: @primary-color-3;
+		font-size: 16px;
+		line-height: 24px;
+		font-style: normal;
+		padding-top: 10px;
+	}	
+	
+}
+
+/* Disable mobile banners */
+
+@media only screen and (max-width: 768px) {
+	.banner.mobile_disabled {
+		display: none !important;
+	}
+}
+
+/* Featured post hide trending */
+
+body.featured-post .trending-slider {
+	display: none !important;
+}
+body.featured-post.trending-slider-fixed {
+    padding-bottom: 0 !important;
+}
+
+/* Gallery load hidden */
+.gallery-slideshow {
+	opacity: 0;
+}
+
+.gallery-description {
+    margin: 10px 0;
+}
+
+/* Slider load hidden */
+.magellan-slider {
+	visibility: hidden;
+}
+
+
+/* Overlay fix */
+
+.post-block .overlay-wrapper.text-overlay .overlay
+{
+	top: -30px;
+	bottom: -30px;
+	left: -30px;
+	right: -30px;
+}
+
+/* Mega menu adjustments */
+.mega-menu .dropdown.full-width .constellation-widget ul {
+	right: auto;
+    left: auto;
+    padding: 0;
+    top: auto;
+	box-shadow: none;
+	position: relative;
+}
+
+.mega-menu .dropdown.full-width.hover .constellation-widget ul {
+    visibility: visible;
+    opacity: 1;
+}  
+
+.post-block.post-image-top .tags,
+.post-block.post-image-300 .tags { 
+	display: table;
+	overflow: visible;
+}
+
+.item-rating-hidden {
+	display: none;
+}
+
+/* Logo max width */
+
+.logo-1 {
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+/* Tag adjustment for post video blocks */
+
+.tags > div {
+	margin-right: 0;
+}
+
+.post-block.post-video .tags div {
+	float: none;
+}
+
+/* Footer heading color settings */
+
+.footer {
+	
+	.widget-default {
+		
+		.title-default {
+			
+			span {
+				background-color: @footer-title-color;
+				color: @footer-bg-color;
+			}
+			
+			&:after {
+				background-color: @footer-title-color;
+			}
+		}
+	}
+}
+
+/* Pattern overlay color */
+
+.pattern-color { background-color: fade(@bg-overlay-color, 5%); }
+
+/* Banner responsiveness */
+
+.banner {
+	display: block !important;
+	max-width: 100%;
+	overflow: hidden;
+	
+	img {
+		max-width: 100%;
+	}
+}
+
+/* Header item position */
+
+.header {
+	
+	.header_item {
+	
+		&.left {
+			float: left;	
+		}
+		
+		&.right {
+			float: right;
+		}
+		
+		&.middle {
+			margin-left: 50px;
+			float: left;
+		}
+		
+		&.single_centered {
+			float: none;
+			text-align: center;
+			width: 100%;
+		}
+	}
+	
+	.today {
+		margin-left: 0;
+	}
+}
+
+/* Particle backgrounds */
+#particles {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: -101;
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	
+	.header.header-items-2 {
+				
+		.header_item {
+			
+			&.left {
+				float: left;	
+				width: auto;
+			}
+
+			&.right {
+				float: right;
+				width: auto;
+			}
+		}
+	}
+	
+	.header.header-items-3 {
+				
+		.header_item {
+			
+			&.left {
+				float: left;	
+				width: auto;
+			}
+
+			&.middle {
+				float: left;
+				width: auto;
+				margin: 0 20px 0 0;
+			}
+			
+			&.right {
+				float: right;
+				width: auto;
+			}
+		}
+		
+		.logo-1 {
+			float: none !important;
+			width: 100% !important;
+			text-align: center !important;
+		}
+		
+		.today {
+			width: 205px;
+			text-align: left;
+		}
+		
+	}
+	
+}
+
+@media only screen and (max-width: 991px) {
+
+	.header {
+
+		.header_item {
+
+			overflow: hidden;
+			
+			&.logo-1 {
+				overflow: visible;
+			}
+			
+			&.left, &.middle, &.right {
+				float: none !important;
+				width: 100% !important;
+				text-align: center !important;
+				margin: 0 0 20px 0;
+			}
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+	}
+}
+
+/* Home margin fix */
+
+.editors-choice-slider, .post-block.post-gallery, .trending-posts.trending-posts-main-content, .post-columns, .post-exclusive .col-md-12 {
+	padding: 0;
+}
+
+
+/* Slider margin fix */
+
+.magellan-slider {
+	
+    .slide {
+        min-height: 20px;
+    }
+    
+	.magellan_sidebar_post_tabs {
+		
+		.switchable-tabs > .row {
+			
+			margin-bottom: 0;
+		}
+	}
+}
+
+/* Post block overflow fix */
+
+.the-content-container {
+	display: block;
+	overflow: hidden;
+}
+
+/* Trending slider */
+
+.trending-slider {
+	
+	color: @text-color-1;
+	background-color: @dock-bg-color;
+	display: none;
+	
+	.close-trending-slider {
+		
+		position: absolute;
+		top: 3px;
+		right: 3px;
+		display: inline-block;
+		width: 14px;
+		height: 14px;
+		line-height: 14px;
+		color: @text-color-1;
+		
+	}
+	
+	.post {
+		height: 100px;
+	}
+}
+
+
+/* Review box */
+
+.reader-reviews {
+	
+	.grip {
+		
+		cursor: pointer;
+		
+		.tooltip {
+			
+			text-align: center;
+			
+			.stars {
+				color: #fff;
+			}
+		}
+	}
+}
+
+
+/* fix comment padding & reply link */
+
+.comments {
+	padding-left: 15px;
+	padding-right: 15px;
+	
+	> ul {
+		padding-left: 0;
+	}
+	
+	.comment-reply-link {
+		font-size: 12px;
+		text-transform: uppercase;
+		font-weight: 900;
+		&:hover { color: @primary-color-3 !important; text-decoration: none; }
+	}
+	
+	.bypostauthor, .comment-author-admin {
+		margin-bottom: 10px !important;
+		background: fade(@accent-color-1, 7%) !important;
+		border: 1px solid fade(@accent-color-1, 20%) !important;
+		padding: 25px !important;
+		span { color: @accent-color-1 !important; }
+	}
+	
+}
+
+/* fix comment spans */
+.legend {
+	span {
+		white-space: nowrap;
+		margin-right: 7px;
+		word-wrap: break-word;
+		color: @secondary-color-1 !important;
+		padding: 0 !important;
+		display: inline !important;
+		font-size: 12px !important;
+		text-transform: none !important;
+		&:before { font-family: FontAwesome; margin-right: 5px; font-weight: 300; }
+	}
+}
+
+
+/*  Share button */ 
+.post-main-wrapper .post-controls
+{
+	height: 30px;
+	overflow: visible;
+	
+	share-button {
+
+		font-size: inherit;
+		color: inherit;
+		background: none;
+		border-radius: 0;
+		font-family: inherit;
+		font-weight: inherit;
+		text-transform: none;
+		padding: 0 0 0 18px;
+		transition: none;
+		z-index: 10;
+
+		&:hover {
+			background-color: inherit;
+			color: @accent-color-1;
+		}
+
+		&:before {
+			font-family: Fontawesome;
+			content: "\f1e0";
+			background: none;
+			width: auto;
+			height: auto;
+			left: 0;
+			line-height: inherit;
+			font-weight: normal;
+		}
+	}
+}
+
+/* Gallery top position fix */
+
+.lightbox-gallery 
+{	
+	.gallery-slideshow {
+		height: 100%;
+	}
+	
+	.image-wrapper .image {
+		top: 50% !important;
+	}
+}
+
+.lightbox-hidden {
+	.image-wrapper .image {
+		visibility: hidden !important;
+	}
+}
+
+/* Lightbox z-index fix */
+.lightbox {
+	z-index: 1;
+}
+.lightboxed-login .lightbox-login {
+	z-index: 10000001;
+}
+.lightboxed-gallery .lightbox-gallery, .lightboxed-search .lightbox-search {
+    z-index: 100000000;
+}
+.post-block.next-previous-wrapper {
+	
+	padding-top: 9px;
+	margin-top: -9px;
+	
+	.next-previous {
+		width: 100%;
+	}
+	
+	.previous, .next {
+		min-height: 120px;		
+	}
+	
+	.one-link-only {
+
+		.previous, .next {
+			width: 100%;
+		}
+	}
+}
+
+/* Mega menu - optional sidemenu */
+
+.menu-item.full-width {
+
+	.mega-menu.has-side-menu {
+
+		> li > ul {
+			width: 20%;
+			position: relative;
+			float: left;
+			box-shadow: none;
+			padding: 0 30px 0 0;
+			
+			li {
+				box-shadow: fade(@primary-color-2, 10%) 0 1px 0 inset !important;
+				&:first-child { box-shadow: none !important; }
+			}
+			
+		}
+
+		.constellation-widget {
+			float: left;
+			max-width: 80%;
+		}
+
+	}
+	
+	&:hover .mega-menu.has-side-menu {
+		
+		> li > ul {
+			visibility: visible;
+			opacity: 1;
+		}
+		
+	}
+	
+}
+
+/* Disable mega menu height due to error caused by multi line menus */
+
+.mega-menu-wrapper {
+    height: auto;
+    min-height: 75px;
+}
+
+/* Add margin for social icons */
+.dock .social-login .login {
+    margin-left: 10px;
+}
+
+/* Center menu items to better look in two rows mode */
+
+.mega-menu .nav {
+    text-align: center;
+    
+    > li {
+        float: none;
+        display: inline-block;
+    }
+    
+    ul {
+        text-align: left;
+    }
+}
+
+/* Set margin-left for first mega menu item in affixed mode */
+.mega-menu-wrapper {
+    
+    .affix {
+        
+        .nav {
+            
+            > li:first-of-type {
+                margin-left: 100px;
+            }
+            
+        }
+        
+    }
+    
+}
+
+
+
+/* Dropdown category posts */
+
+.magellan_dropdown_category_posts {
+	
+	.post-block {
+		
+		.items {
+			
+			display: none;
+			
+			&:first-child {
+				display: block;
+			}
+			
+		}
+		
+	}
+}
+
+
+/* Weather widget */
+
+.today {
+	
+	i {
+		width: 18px;
+	}
+	
+	.wi {
+		font-size: 12px;
+	}
+	
+}
+
+.weather-ajax-container {
+	height: 24px;
+}
+
+/* Twitter feed scrollbar */
+
+.widget-footer {
+	
+	.more {
+		display: none;
+	}
+	
+}
+
+.twitter-feed.scrollable {
+	padding-right: 10px;
+	height: 300px;
+    
+    iframe {
+        width: 100% !important;
+    }
+}
+
+
+
+/* Home sidebar - see .sidebar in main style */
+
+.wpb_widgetised_column {
+	.post-block { margin: 0; .post-block { margin-bottom: 0; } }
+	> .wpb_wrapper > .row { margin-bottom: 40px; }
+	.row > .post-block { padding: 0 15px; }
+	.row:last-child .widget-sidebar { margin-bottom: 0; }
+	.post-featured { height: 300px !important; }
+	.article-carousel .post-featured { height: 400px !important; }
+	.newsletter { margin: 0; form p { margin: 0; } }
+	> .wpb_wrapper > div:last-child { margin-bottom: 0; }
+	.banner { padding: 0 15px; margin: 0; }
+}
+
+.sidebar .sidebar-affix-wrap > .row {
+	margin-bottom: 40px;
+	&:last-child { margin-bottom: 0; }
+}
+
+/* Social sharrre widget */
+
+.social {
+	.fa-pinterest-square { color: #c92228; }
+	.fa-linkedin-square { color: #007bb5; }
+}
+
+.dock {
+	.social {
+		.fa-pinterest-square { color: #a1a1a1; }
+		.fa-linkedin-square { color: #a1a1a1; }
+	}
+}
+
+/* Dock featured date color */
+
+.dock .legend a {
+	color: @dock-text-color !important;
+}
+
+/* Dock logged in */
+
+.dock .login
+{
+	.logout {
+		font-size: 12px;
+		font-weight: 700;
+		position: relative;
+		top: -1px;
+		color: @dock-text-color;
+        margin-left: 15px;
+        
+        i {
+            padding-right: 2px;
+        }
+		&:hover, &.active { color: @accent-color-1; text-decoration: none; }
+	}
+	
+	span {
+		font-size: 12px;
+		font-weight: 700;
+		position: relative;
+		top: -1px;
+		color: @dock-text-color;
+		&:before {
+			content: "\f183";
+			font-family: FontAwesome;
+			margin-left: 5px;
+			font-weight: 300;
+			font-size: 14px;
+			margin-right: 5px;
+		}
+	}
+}
+
+/* Gallery item title min height */
+
+.galleries .gallery-block .title {
+	min-height: 105px;
+}
+
+.gallery-slideshow .single-photo-active {
+	
+	display: none;
+	
+	&:first-child {
+		display: block;
+	}
+	
+}
+
+/* Single gallery title h1 instead of h3 */
+
+.gallery-title {
+	margin-bottom: 40px;
+	h1 {
+		font: 700 50px/56px @title_font, serif; padding: 0; margin: 0;
+		a { color: @primary-color-3; &:hover { color: @accent-color-1; text-decoration: none; } }
+	}
+}
+
+.galleries .single-photo-active {
+	
+	
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+	
+}
+
+/* Homepage row width */
+
+/* Fix VC rows from streching body */
+
+body {
+	overflow-x: hidden;
+	height: 100%;
+}
+
+/* Set row/column paddings and widths */
+body.page-template-page-layout
+{
+	> .vc_row {
+		width: 1170px;
+		margin: 0 auto 30px auto !important;
+	}
+	
+	.wpb_column>.vc_column-inner>.wpb_wrapper>:last-child {
+		margin-bottom: 0;
+	}
+	
+	.vc_column-inner {
+		padding: 0;
+	}
+	
+	.wpb_column {
+		padding-left: 15px;
+		padding-right: 15px;
+		
+		&:first-child {
+			padding-left: 0;
+		}
+		
+		&:last-child {
+			padding-right: 0;
+		}
+		
+		> .wpb_wrapper > .vc_row > .vc_col-sm-6,
+		> .vc_column-inner > .wpb_wrapper > .vc_row > .vc_col-sm-6
+		{
+			
+			padding-left: 15px;
+			padding-right: 15px;
+			
+			&:first-child {
+				padding-left: 0;
+			}
+
+			&:last-child {
+				padding-right: 0;
+			}
+			
+		}
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	body.page-template-page-layout > .vc_row {
+		width: 970px;
+	}	 
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	body.page-template-page-layout > .vc_row {
+		width: 750px;
+	}	 
+}
+
+@media only screen and (max-width: 768px) {
+	body.page-template-page-layout > .vc_row {
+		width: 100%;
+	}	 
+}
+
+/* Enable full width VC elements */
+
+body.page-template-page-layout > .vc_row.full-width {
+	width: 100% !important;
+}
+
+/* Fix added/loading to cart from catalog */
+.woocommerce ul.products li.product {
+
+	.add_to_cart_button {
+		
+		&.loading {
+			padding-right: 35px;
+		}
+		
+	}
+	
+	.added_to_cart {
+		margin: 15px 0 0 10px;
+		padding: 0;
+		line-height: 42px;
+	}
+	
+} 
+
+/* Category slider tabs */
+.dynamic-slide-hidden {
+	display: none;
+}
+
+
+.dynamic-slide {
+
+	min-height: 340px;
+	
+	.loader {
+		
+		text-align: center;
+	
+		.fa-spinner {
+			font-size: 30px;
+			position: absolute;
+			top: 50%;
+		}
+	}
+}
+
+.switcher-tab-content {
+	
+	display: none;
+	
+	&:first-child {
+		display: block;
+	}
+	
+}
+
+/* Fix pagination wrapper to support span items */
+.pagination-wrapper {
+
+	.pagination {
+
+		li {
+			/* Pielikt a tagad vienk klat , span */
+			span {
+				min-width: 26px;
+				height: 26px;
+				font-size: 12px;
+				line-height: 12px !important;
+				font-weight: 900;
+				padding: 4px 0 0 0 !important;
+				padding: 5px 10px;
+				background: none;
+				border: none;
+				border-radius: 0 !important;
+				text-align: center;
+				border: transparent 2px solid;
+				color: @accent-color-1;
+				cursor: pointer;
+				&:hover {
+					border: @primary-color-3 2px solid !important;
+					color: @primary-color-3;
+				}
+				&.current {
+					border: @accent-color-1 2px solid !important;
+					background: none;
+					color: @accent-color-1;
+				}
+			}
+			
+		}
+	}
+}
+
+/* Adjust the post slider min height */
+@media only screen and (max-width: 1199px) {
+	.dynamic-slide {
+		min-height: 300px;
+	}
+}
+
+
+/* Header offset */
+body.header-offset {
+    
+    position: relative;
+    
+    &:before {
+        bottom: 0;
+        top: 0;
+        position: absolute;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 1249px) {
+    body.header-offset {
+        &:before {
+            height: auto !important;
+        }
+    }
+}
+
+/* Fixing background for full width in case of image */
+body.full-width-bg {
+    &:before {
+        width: 1230px;
+        height: 100%;
+        position: fixed;
+        content: "";
+        background: @body-background-1;
+        left: 50%;
+        transform: translate(-50%, 0);
+		-webkit-transform: translate(-50%, 0);
+        z-index: -100;
+    }
+}
+
+/* Hide overlay effects on mobile touch devices */
+html.touchevents body.mobile-device {
+    
+    .post-block .text-overlay {
+        display: none !important;
+    }
+    
+}
+
+/* Fix IE product image text effect bug */
+div.pp_woocommerce a.pp_contract, div.pp_woocommerce a.pp_expand, div.pp_woocommerce a.pp_close {
+    text-decoration: none !important;
+}
+
+/* Fix product image overlay bug */
+div.pp_overlay {
+    z-index: 100000000;
+}
+
+div.pp_pic_holder {
+    z-index: 1000000000;
+}
+
+@media only screen and (min-width: 991px) {
+	.home-text-title {
+        display: none;
+    }
+}
+
+/****************************************************/
+/*						Tablet						*/
+/****************************************************/
+
+/* ignore affix width */
+@media only screen and (max-width: 991px) {
+	.sidebar-affix-wrap { width: auto !important; }
+}
+
+/* Featured post - ignore affix */
+@media only screen and (max-width: 991px) {
+	body.featured-post .parallax-wrapper.affix {
+		position: relative !important;
+		margin-top: 0 !important;
+	} 
+}
+/* Fix home layout on tablet */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	body.page-template-page-layout {
+		
+		.focus > .vc_row {
+			
+			> .vc_col-sm-4, > .vc_col-sm-8 {
+				width: 100%;
+                padding-left: 0;
+                padding-right: 0;
+				margin-bottom: 20px;
+			}
+			
+		}
+		
+	}
+	
+}
+
+/* Fix min carousel height on tablet */
+
+@media only screen and (max-width: 991px) {
+	.dynamic-slide {
+		min-height: 270px;
+	}
+}
+
+
+/* Hide nav menu on load */
+@media only screen and (max-width: 991px) { 
+	
+	.mega-menu .nav {
+		display: none;
+	}
+	
+}
+
+/* Fix twitter feed height on mobile and tablet */
+
+@media only screen and (max-width: 991px) {
+	.twitter-feed.scrollable {
+		height: auto !important;
+	}
+}
+
+/* Dropdown menu trigger */
+@media only screen and (max-width: 991px) { 
+	.mega-menu .nav {
+		
+		.mobile-dropdown-trigger {
+			display: inline-block !important;
+			position: absolute;
+			top: 0;
+			right: 0;
+			z-index: 100000;
+			background: transparent !important;
+			color: @primary-color-3;
+
+			&:after {
+				display: none;
+			}
+		}
+		
+		> li > .mobile-dropdown-trigger {
+			width: 75px;
+			height: 75px;
+		}
+		
+		> li > ul .mobile-dropdown-trigger {
+			width: 75px;
+			height: 51px;
+			background: transparent !important;
+			
+			&:hover {
+				background: transparent !important;
+			}
+		}
+	}
+}
+
+/* Hide homepage sideborder */
+@media only screen and (max-width: 991px) { 
+	body.page-template-page-layout .side-border {
+
+		padding-right: 0 !important;
+		
+		&:after {
+			display: none;
+		}
+		
+		& + .wpb_column {
+			padding-left: 15px !important;
+		}
+	}
+}
+
+/****************************************************/
+/*						Mobile						*/
+/****************************************************/
+
+/* Fix reader rating bug in mobile */
+@media only screen and (max-width: 767px) {
+    body.single-post .main-content-wrapper {
+       display: block;
+    }
+}
+
+/* Adjust footer scrollbar padding */
+
+@media only screen and (max-width: 767px) {
+	.widget-footer li {
+		padding: 15px 15px 15px 0;
+	}
+}
+
+/* Fix post controls on mobile */
+@media only screen and (max-width: 767px) {
+	.post-main-wrapper .post-controls {
+		height: auto;
+		overflow: hidden;
+	}
+}
+
+/* Hide trending on mobile */
+@media only screen and (max-width: 767px) {
+	.trending-slider {
+		display: none !important;
+	}
+}
+
+/* Homepage mobile paddings/margins */
+@media only screen and (max-width: 767px) {
+
+	body.page-template-page-layout {
+		
+		.wpb_column {
+			padding-left: 15px !important;
+			padding-right: 15px !important;
+
+			.wpb_column {
+				padding-left: 0 !important;
+				padding-right: 0 !important;
+			}
+			
+			&.vc_col-sm-6:first-child {
+				padding-bottom: 30px;
+			}
+			
+			&.vc_col-sm-8 { margin-bottom: 30px; }
+			&.vc_col-sm-4 { margin-bottom: 30px; }
+		}
+		
+		.post-block.slider {
+			padding-left: 0 !important;
+			padding-right: 0 !important;
+		}
+		
+		.full-width {
+		
+			> .wpb_column {
+				padding-left: 0 !important;
+				padding-right: 0 !important;
+			}
+		
+			.post-block.slider {
+				padding-left: 15px !important;
+				padding-right: 15px !important;
+			}
+		}
+
+		.video-slider {
+			padding-left: 0 !important;
+			padding-right: 0 !important;
+		}
+		
+		.post-columns {
+			margin-bottom: 0;
+			.col-sm-6 { margin-bottom: 30px; }
+			.col-xs-12 { margin-bottom: 20px; }
+			.post .overlay-wrapper { display: none; }
+		}
+
+		.post-columns-small { .row { margin-bottom: 0; } }
+		
+		.editors-choice-slider {
+			margin-bottom: 10px;
+			.carousel-inner {
+				.col-sm-6 { margin-bottom: 20px; }
+			}
+		}
+	}
+	
+	/* Mega menu fixes */
+	.mega-menu .post-block .row {
+		
+		.col-md-4, .col-md-3 {
+			
+			&:last-child { margin-bottom: 0; }
+		}
+	}
+	
+	.magellan_dropdown_post_list_with_heading .col-md-4 .col-md-12 {
+		margin-bottom: 0;
+	}
+	
+}

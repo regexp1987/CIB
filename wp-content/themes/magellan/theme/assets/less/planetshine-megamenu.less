@@ -1,0 +1,247 @@
+// main: magellan-stylesheet.less
+
+// Planetshine Mega Menu basic layout
+// --------------------------------------------------
+
+.mega-menu {
+
+	width: 100%;
+	background: @accent-color-1;
+	position: relative;
+	z-index: 10000000;
+	box-shadow: fade(@primary-color-2, 15%) 0 1px 0, fade(@primary-color-2, 15%) 1px 0 0, fade(@primary-color-2, 15%) -1px 0 0;
+
+	a:hover { text-decoration: none !important; }
+
+	.container { padding: 0; position: relative; }
+
+	.nav {
+
+		*zoom: 1;
+		list-style: none;
+		font: @menu_fontsize @menu_font, sans-serif;
+		display: table;
+		margin: 0 auto;
+
+		&:before, &:after { content: ""; display: table; }
+		&:after { clear: both; }
+
+		& > li {
+			float: left;
+			& > a {
+				display: block;
+				height: 75px;
+				font-weight: 900;
+				text-transform: uppercase;
+				padding: 26px 17px;
+				transition: @transition-fast;
+			}
+			& > .parent {
+				padding-right: 34px;
+				&:after {
+					content: "\f0d7";
+					font-family: FontAwesome;
+					font-weight: 300;
+					margin: 2px 0 0 8px;
+					font-size: 16px;
+					position: absolute;
+					transition: none !important;
+				}
+			}
+			&.hover > .parent {
+				&:after {
+					content: "\f0c9";
+					font-family: FontAwesome;
+					margin: 5px 0 0 8px;
+					font-size: 12px;
+				}
+			}
+		}
+
+		a { color: @mega-menu-text-color; outline: none; }
+
+		ul {
+			list-style: none;
+			box-shadow: fade(@primary-color-2, 15%) 0 1px 0, fade(@primary-color-2, 15%) 1px 0 0, fade(@primary-color-2, 15%) -1px 0 0, fade(@primary-color-1, 50%) 0 30px 30px;
+		}
+
+		li {
+			position: relative;
+			ul {
+				top: 75px;
+				position: absolute;
+				visibility: hidden;
+				opacity: 0;
+				background: @primary-color-3;
+				padding: 0;
+				transition: @transition-fast;
+				li > a:hover {
+					background: fade(@primary-color-1, 20%) !important;
+					color: @accent-color-1 !important;
+				}
+			}
+			li {
+				box-shadow: fade(@primary-color-2, 10%) 0 1px 0 inset;
+				a {
+					display: block;
+					position: relative;
+					padding: 16px 17px;
+					color: @primary-color-2;
+					text-transform: uppercase;
+					font-size: @menu_fontsize;
+					z-index: 100;
+					white-space: nowrap;
+					transition: @transition-bg-fast;
+				}
+				& > .parent {
+					padding-right: 34px;
+					&:after {
+						content: "\f0da";
+						font-family: FontAwesome;
+						font-weight: 300;
+						margin: 2px 0 0 0;
+						font-size: 16px;
+						position: absolute;
+						right: 17px;
+						transition: @transition-fast;
+					}
+				}
+				&.hover > .parent {
+					&:after {
+						content: "\f0c9";
+						font-family: FontAwesome;
+						margin: 5px 0 0 8px;
+						font-size: 12px;
+					}
+				}
+				li { a { z-index: 200; } }
+				ul {
+					left: 100%;
+					top: 0 !important;
+					box-shadow: fade(@primary-color-2, 10%) 1px 0 0 inset, fade(@primary-color-1, 50%) 0 30px 30px;
+				}
+				&.hover {
+					& > a {
+						background: fade(@primary-color-1, 20%) !important;
+						text-decoration: none;
+						color: @accent-color-1;
+					}
+				}
+				&:last-child { &:after { display: none; } }
+				&:first-child { &:before { display: none; } }
+			}
+			&.hover {
+				& > a {
+					background: @primary-color-3;
+					color: @primary-color-2;
+				}
+				& > ul {
+					visibility: visible;
+					opacity: 1;
+				}
+			}
+		}
+
+		li > a:focus, li > a:hover {
+			background: @primary-color-3;
+			color: @primary-color-2;
+		}
+
+		.full-width {
+			position: inherit;
+			color: @primary-color-2;
+			ul {
+				right: 0;
+				left: 0;
+				padding: 30px;
+			}
+			li {
+				box-shadow: none;
+			}
+			.btn-sort {
+				color: @accent-color-1;
+				&.active {
+					color: @accent-color-1;
+				}
+				&:hover {
+					color: @primary-color-2 !important;
+					box-shadow: @primary-color-2 0 2px 0 inset, @primary-color-2 0 -2px 0 inset, @primary-color-2 2px 0 0 inset, @primary-color-2 -2px 0 0 inset;
+				}
+			}
+		}
+
+		.fa-search { font-weight: 900; }
+		.btn-default {
+			background: fade(@primary-color-1, 30%);
+			&:hover {
+				background: fade(@primary-color-1, 30%);
+				color: @primary-color-2 !important;
+				box-shadow: @primary-color-2 0 2px 0 inset, @primary-color-2 0 -2px 0 inset, @primary-color-2 2px 0 0 inset, @primary-color-2 -2px 0 0 inset;
+			}
+		}
+        
+        .mega-menu-item {
+            box-shadow: rgba(255, 255, 255, 0.2) 0 1px 0 inset;
+        }
+
+	}
+
+	.togglemenu {
+		display:  none;
+		font: 900 @menu_fontsize @general_font, sans-serif;
+		height: 75px;
+		text-transform: uppercase;
+		padding: 26px 17px;
+		color: @mega-menu-text-color;
+		outline: none;
+		text-decoration: none;
+		width: 100%;
+		&:after {
+			content: "\f0d7";
+			font-family: FontAwesome;
+			font-weight: 300;
+			margin: 2px 0 0 0;
+			font-size: 16px;
+			position: absolute;
+			transition: @transition-fast;
+			right: 17px;
+		}
+		&.active {
+			background: @primary-color-3;
+			color: @primary-color-2;
+			&:after {
+				content: "\f0c9";
+				margin: 5px 0 0 0;
+				font-size: 12px;
+			}
+		}
+	}
+
+	@media only screen and (min-width: 992px) {
+		&.affix {
+			position: fixed !important;
+			width: auto !important;
+			top: 0;
+			box-shadow: fade(@primary-color-1, 15%) 0 3px 3px;
+			.nav {
+				float: right;
+				& > li {
+					float: left;
+					& > a {
+						height: 45px;
+						padding: 12px 13px;
+						font-size: 14px;
+					}
+					& > .parent {
+						padding-right: 30px;
+					}
+				}
+				li {
+					ul { top: 45px; }
+				}
+			}
+			.logo-2 { visibility: visible; opacity: 1; left: 20px; }
+		}
+	}
+
+}

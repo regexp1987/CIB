@@ -1,0 +1,38 @@
+html.no-cssfilters {
+
+	.magellan-slider {
+		.slide {
+			.title-wrapper {
+				background-color: rgba(0, 0, 0, 0.7);
+			}
+			.overlay { .blur-0; }
+		}
+	}
+
+	.post-block {
+		.overlay-wrapper {
+			.overlay { .blur-0; }
+			.content {
+				& > div {
+					background-color: rgba(0, 0, 0, 0.7);
+				}
+			}
+		}
+	}
+
+	.post-featured {
+		.title {
+			background-color: rgba(0, 0, 0, 0.7);
+		}
+		.overlay { .blur-0; }
+	}
+
+	.post-exclusive {
+		.overlay { .blur-0; }
+		.title { background-color: rgba(0, 0, 0, 0.8); }
+	}
+
+    .lightboxed-search, .lightboxed-gallery, .lightboxed-login {
+        .focus { .blur-0; background-color: rgba(0, 0, 0, 0.8); }
+    }
+}

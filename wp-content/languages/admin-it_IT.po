@@ -10723,192 +10723,193 @@ msgstr "Grazie per aver creato con  <a href=\"%s\">WordPress</a>."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:263
+#: wp-admin/about.php:266
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>La versione %1$s</strong> corregge un problema di sicurezza e %2$s bug."
 msgstr[1] "<strong>La versione %1$s</strong> corregge un problema di sicurezza e %2$s bug."
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:256
+#: wp-admin/about.php:259
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>La versione %s</strong> corregge alcuni problemi di sicurezza."
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:254
+#: wp-admin/about.php:48 wp-admin/about.php:257
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "La <strong>versione %s</strong> corregge un problema di sicurezza."
 
-#: wp-admin/about.php:250
+#: wp-admin/about.php:253
 msgid "Maintenance and Security Release"
 msgstr "Aggiornamento di sicurezza e manutenzione"
 
-#: wp-admin/about.php:248
+#: wp-admin/about.php:251
 msgid "Security Releases"
 msgstr "Versioni di sicurezza"
 
-#: wp-admin/about.php:247
+#: wp-admin/about.php:250
 msgid "Security Release"
 msgstr "Aggiornamento di sicurezza"
 
-#: wp-admin/about.php:245
+#: wp-admin/about.php:248
 msgid "Maintenance Releases"
 msgstr "Versioni di manutenzione"
 
-#: wp-admin/about.php:244
+#: wp-admin/about.php:247
 msgid "Maintenance Release"
 msgstr "Aggiornamento di manutenzione"
 
-#: wp-admin/about.php:233
+#: wp-admin/about.php:236
 msgid "Go to Dashboard"
 msgstr "Vai alla bacheca"
 
-#: wp-admin/about.php:233
+#: wp-admin/about.php:236
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Vai alla bacheca &rarr; Home"
 
-#: wp-admin/about.php:230
+#: wp-admin/about.php:233
 msgid "Return to Dashboard &rarr; Updates"
 msgstr "Ritorna alla bacheca &rarr; Aggiornamenti"
 
-#: wp-admin/about.php:230
+#: wp-admin/about.php:233
 msgid "Return to Updates"
 msgstr "Torna alla pagina degli aggiornamenti"
 
-#: wp-admin/about.php:220
+#: wp-admin/about.php:223
 msgid "Rejoice! New responsive breakpoints have been added to the customizer sidebar to make it wider on high-resolution screens. Customizer controls should use percentage-based widths instead of pixels."
 msgstr "Rallegrati! Nuovi breakpoint responsive sono stati aggiunti alla barra laterale in Personalizza per renderla più ampia su schermi ad alta risoluzione. I controlli di Personalizza dovrebbero utilizzare larghezze basate sulla percentuali invece che sui pixel."
 
-#: wp-admin/about.php:219
+#: wp-admin/about.php:222
 msgid "Customizer Width Variable"
 msgstr "Larghezza variabile di Personalizza"
 
-#: wp-admin/about.php:216
+#: wp-admin/about.php:219
 msgid "The introduction of a new base media widget REST API schema to 4.8 opens up possibilities for even more media widgets (like galleries or playlists) in the future. The three new media widgets are powered by a shared base class that covers most of the interactions with the media modal. That class also makes it easier to create new media widgets and paves the way for more to come."
 msgstr "L'introduzione nella 4.8 di un nuovo schema REST API per il widget base per i media, apre la possibilità in futuro di avere molti altri widget media (come ad esempio per le gallerie di foto o per le playlist). I tre nuovi widget media sono gestiti da una classe condivisa che copre la maggior parte delle interazioni coi media. Questa classe permette una facile creazione di nuovi widget media e apre la strada per un futuro."
 
-#: wp-admin/about.php:215
+#: wp-admin/about.php:218
 msgid "Media Widgets API"
 msgstr "API per i widget multimediali"
 
-#: wp-admin/about.php:212
+#: wp-admin/about.php:215
 msgid "With the addition of TinyMCE to the text widget in 4.8 comes a new JavaScript API for instantiating the editor after page load. This can be used to add an editor instance to any text area, and customize it with buttons and functions. Great for plugin authors!"
 msgstr "Con l'aggiunta alla 4.8 di TinyMCE al widget di testo arriva anche una nuova API JavaScript per istanziare l'editor dopo il caricamento della pagina. Questo può essere usato per aggiungere un editor a qualsiasi area di testo e personalizzarlo con pulsanti e funzioni."
 
-#: wp-admin/about.php:211
+#: wp-admin/about.php:214
 msgid "Text-Editor JavaScript API"
 msgstr "Javascript API per l'editor di testo"
 
-#: wp-admin/about.php:208
+#: wp-admin/about.php:211
 msgid "New capabilities have been introduced to 4.8 with an eye towards removing calls to <code>is_super_admin()</code>. Additionally, new hooks and tweaks to more granularly control site and user counts per network have been added."
 msgstr "Alla 4.8 sono state aggiunte nuove capacità con un occhio rivolto alla rimozione delle chiamate a <code>is_super_admin()</code>. Inoltre, sono stati aggiunti nuovi hook e ritocchi per avere un controllo più granulare per il sito e conteggio utenti per il network."
 
-#: wp-admin/about.php:207
+#: wp-admin/about.php:210
 msgid "Multisite Updates"
 msgstr "Aggiornamenti multisito"
 
-#: wp-admin/about.php:204
+#: wp-admin/about.php:207
 msgid "As fewer and fewer browsers support Silverlight, file formats which require the presence of the Silverlight plugin are being removed from core support. Files will still display as a download link, but will no longer be embedded automatically."
 msgstr "Poiché sempre meno browser supportano Silverlight, i formati di file che richiedono la presenza del plugin Silverlight sono stati rimossi dal codice. I file verranno ancora visualizzati come link di download ma non verranno più incorporati automaticamente."
 
-#: wp-admin/about.php:203
+#: wp-admin/about.php:206
 msgid "Removal of Core Support for WMV and WMA Files"
 msgstr "Rimozione del supporto del core a WMV e ai file WMA"
 
-#: wp-admin/about.php:200
+#: wp-admin/about.php:203
 msgid "New CSS rules mean extraneous content (like &ldquo;Add New&rdquo; links) no longer need to be included in admin-area headings. These panel headings improve the experience for people using assistive technologies."
 msgstr "Nuove regole CSS non rendono più necessario includere codice estraneo (come i link &ldquo;Aggiungi nuovo&rdquo;) nell'area della testata dell'amministrazione. Ciò migliora l'accessibilità da parte di chi utilizza tecnologie assistive."
 
-#: wp-admin/about.php:199
+#: wp-admin/about.php:202
 msgid "More Accessible Admin Panel Headings"
 msgstr "Intestazioni del pannello di amministrazione più accessibili"
 
 #. translators: %s: smiling face with smiling eyes emoji
-#: wp-admin/about.php:192
+#: wp-admin/about.php:195
 msgid "Even More Developer Happiness %s"
 msgstr "Sviluppatori ancora più felici %s"
 
-#: wp-admin/about.php:163
+#: wp-admin/about.php:166
 msgid "Being part of the community can help you improve your WordPress skills and network with people you wouldn&#8217;t otherwise meet. Now you can easily find your local events just by logging in to your dashboard and looking at the new Events and News dashboard widget."
 msgstr "Essere parte della community può contribuire a migliorare le tue competenze e a stabilire nuove relazioni con persone che diversamente non incontreresti. Ora puoi trovare facilmente gli eventi organizzati vicino a te, semplicemente entrando nella tua bacheca e dando un'occhiata al nuovo widget Eventi e News."
 
-#: wp-admin/about.php:161
+#: wp-admin/about.php:164
 msgid "This is quickly becoming one of our favorite features. While you are in the dashboard (because you&#8217;re running updates and writing posts, right?) all upcoming WordCamps and WordPress Meetups &mdash; local to you &mdash; will be displayed."
 msgstr "Questa nuova funzionalità è una delle nostre preferite. Mentre sei nella bacheca per gestire il tuo sito, ora potrai vedere anche tutti i WordCamp e i WordPress Meetup organizzati vicino a te!"
 
-#: wp-admin/about.php:159
+#: wp-admin/about.php:162
 msgid "Did you know that WordPress has a thriving offline community with groups meeting regularly in more than 400 cities around the world? WordPress now draws your attention to the events that help you continue improving your WordPress skills, meet friends, and, of course, publish!"
 msgstr "Lo sai che WordPress ha una community fantastica che si riunisce regolarmente in più di 400 città del mondo? WordPress ora mette in evidenza gli eventi che ti consentono di migliorare le tue abilità con WordPress, incontrare gli amici e, naturalmente, pubblicare!"
 
-#: wp-admin/about.php:157
+#: wp-admin/about.php:160
 msgid "Nearby WordPress Events"
 msgstr "Eventi di WordPress vicino a te"
 
-#: wp-admin/about.php:138
+#: wp-admin/about.php:141
 msgid "Have you ever tried updating a link, or the text around a link, and found you can&#8217;t seem to edit it correctly? When you edit the text after the link, your new text also ends up linked. Or you edit the text in the link, but your text ends up outside of it. This can be frustrating! With link boundaries, a great new feature, the process is streamlined and your links will work well. You’ll be happier. We promise."
 msgstr "Hai mai provato ad aggiornare un link o il testo collegato ad un link e di avere la sensazione di non riuscire a modificarli correttamente? Cerchi di aggiungere una parola dopo un link ed il nuovo testo appare come parte del link? Oppure provi ad aggiungere più parole ad un link ma queste finiscono fuori dal link stesso? È frustrante! Questa nuova caratteristica rende più lineare questo procedimento e l'inserimento dei link funzionerà meglio. Ti piacerà. Promesso."
 
-#: wp-admin/about.php:137
+#: wp-admin/about.php:140
 msgid "Link Boundaries"
 msgstr "Link"
 
-#: wp-admin/about.php:129
+#: wp-admin/about.php:132
 msgid "This feature deserves a parade down the center of town! Rich-text editing capabilities are now native for Text widgets. Add a widget anywhere and format away. Create lists, add emphasis, and quickly and easily insert links. Have fun with your newfound formatting powers, and watch what you can accomplish in a short amount of time."
 msgstr "Questa funzionalità merita l'organizzazione di una parata trionfale nella via principale della città! La possibilità di scrivere un testo utilizzando la formattazione è ora disponibile per il widget Testo. Aggiungi il widget dove vuoi e formatta il testo come preferisci. Crea liste, sottolinea ed enfatizza con il grassetto o il corsivo e inserisci link. Divertiti a usare la nuova funzione di formattazione e guarda i risultati che puoi ottenere in poco tempo."
 
-#: wp-admin/about.php:128
+#: wp-admin/about.php:131
 msgid "Rich Text Widget"
 msgstr "Widget Testo"
 
-#: wp-admin/about.php:125
+#: wp-admin/about.php:128
 msgid "Are you a podcaster, musician, or avid blogger? Adding a widget with your audio file has never been easier. Upload your audio file to the Media Library, go to the widget settings, select your file, and you&#8217;re ready for listeners. This would be a easy way to add a more personal welcome message, too!"
 msgstr "Sei un podcaster, un musicista o un blogger appassionato? Aggiungere un widget con i tuoi file audio non è mai stato così semplice. Carica il tuo file audio nella libreria media, vai nelle impostazioni del widget, seleziona il tuo file ed è tutto. Questo è anche un ottimo metodo per aggiungere un messaggio di benvenuto  più personale!"
 
-#: wp-admin/about.php:121
+#: wp-admin/about.php:124
 msgid "A welcome video is a great way to humanize the branding of your website. You can now add any video from the Media Library to a sidebar on your site with the new Video widget. Use this to showcase a welcome video to introduce visitors to your site or promote your latest and greatest content."
 msgstr "Un video di benvenuto è un ottimo modo per rendere più accogliente il tuo sito. Ora puoi aggiungere qualsiasi video dalla tua Libreria dei media nella barra laterale, usando il nuovo widget Video. Usa questa opzione per mostrare un video di benvenuto e introdurre i visitatori al tuo sito o per promuovere i tuoi migliori e più recenti contenuti."
 
-#: wp-admin/about.php:117
+#: wp-admin/about.php:120
 msgid "Adding an image to a widget is now a simple task that is achievable for any WordPress user without needing to know code. Simply insert your image right within the widget settings. Try adding something like a headshot or a photo of your latest weekend adventure &mdash; and see it appear automatically."
 msgstr "Aggiungere una immagine ad un widget è ora una operazione alla portata di ogni utente WordPress, senza bisogno di saper programmare. Basta inserire l'immagine direttamente dalla impostazioni del widget. Prova ad aggiungere una foto e la vedrai apparire automaticamente."
 
-#: wp-admin/about.php:68
+#: wp-admin/about.php:71
 msgid "Exciting Widget Updates"
 msgstr "Grandi novità per i widget"
 
-#: wp-admin/about.php:62
+#: wp-admin/about.php:65
 msgid "Though some updates seem minor, they&#8217;ve been built by hundreds of contributors with <em>you</em> in mind. Get ready for new features you&#8217;ll welcome like an old friend: link improvements, <em>three</em> new media widgets covering images, audio, and video, an updated text widget that supports visual editing, and an upgraded news section in your dashboard which brings in nearby and upcoming WordPress events."
 msgstr "Anche se sembrano minori, gli aggiornamenti introdotti sono stati sviluppati <em>pensando a te</em>. Ecco le nuove caratteristiche di cui non potrai più fare a meno: la gestione dei link è stata migliorata, sono stati aggiunti tre nuovi widget media per immagini, audio e video, c'è un aggiornamento al widget di testo che ora supporta l'editor visuale e, infine, è stata aggiornata la sezione novità della bacheca che ora segnala gli eventi WordPress in programma vicino a te."
 
-#: wp-admin/about.php:61
+#: wp-admin/about.php:64
 msgid "WordPress 4.8 adds some great new features. Gear up for a more intuitive WordPress!"
 msgstr "WordPress 4.8 aggiunge alcune nuove fantastiche funzionalità &mdash; preparati per un WordPress più intuitivo!"
 
-#: wp-admin/about.php:60
+#: wp-admin/about.php:63
 msgid "An Update with You in Mind"
 msgstr "Lo abbiamo aggiornato pensando a te"
 
 #. translators: 1: WordPress version number, 2: plural number of bugs.
-#: wp-admin/about.php:52 wp-admin/about.php:259
+#: wp-admin/about.php:55 wp-admin/about.php:262
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>La versione %1$s</strong> corregge %2$s bug."
 msgstr[1] "<strong>La versione %1$s</strong> corregge %2$s bug."
 
 #. translators: %s: Codex URL
-#: wp-admin/about.php:50 wp-admin/about.php:54 wp-admin/about.php:271
+#: wp-admin/about.php:49 wp-admin/about.php:53 wp-admin/about.php:57
+#: wp-admin/about.php:274
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "Per ulteriori informazioni consulta <a href=\"%s\">le note di versione</a>."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:48 wp-admin/about.php:267
+#: wp-admin/about.php:51 wp-admin/about.php:270
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>La versione %1$s</strong> corregge alcuni problemi di sicurezza e %2$s bug."
 msgstr[1] "<strong>La versione %1$s</strong> corregge alcuni problemi di sicurezza e %2$s bug."
 
-#: wp-admin/about.php:47 wp-admin/about.php:251
+#: wp-admin/about.php:47 wp-admin/about.php:254
 msgid "Maintenance and Security Releases"
 msgstr "Versioni di manutenzione e sicurezza"
 

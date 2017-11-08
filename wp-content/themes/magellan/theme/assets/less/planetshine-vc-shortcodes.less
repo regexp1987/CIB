@@ -1,0 +1,307 @@
+.magellan-tabs {
+	margin: 0 0 40px 0 !important;
+	padding: 0 0 30px 0 !important;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	.vc_tta-tabs-container {
+		padding: 0 !important;
+		margin: 0 !important;
+		.vc_tta-tabs-list {
+			text-transform: uppercase;
+			border: none;
+			margin: 0;
+			padding: 0 1em;
+			position: relative;
+			&:before {
+				content: "";
+				position: absolute;
+				width: 100%;
+				height: 2px;
+				background: @accent-color-1;
+				bottom: 0;
+				left: 0;
+			}
+			.vc_tta-tab {
+				margin: 0 5px 0 0;
+				padding: 0;
+				opacity: 1;
+				float: left;
+				a {
+					border: none;
+					border: 2px solid transparent;
+					background: none;
+					border-radius: 0;
+					font-size: 14px;
+					font-weight: 700;
+					padding: 7px 15px;
+					color: @accent-color-1;
+					transition: none;
+				}
+				&:hover {
+					a {
+						color: @primary-color-3;
+						border: 2px solid @primary-color-3;
+						border-bottom-color: @primary-color-2 !important;
+					}
+				}
+			}
+			.vc_active {
+				a {
+					border: 2px solid @accent-color-1;
+					border-bottom-color: @primary-color-2 !important;
+					&:after, &:before { display: none !important; }
+				}
+			}
+		}
+	}
+	.vc_tta-panels-container {
+		.vc_tta-panels {
+			background: none !important;
+			border: none !important;
+			border-radius: 0 !important;
+			.vc_tta-panel {
+				.vc_tta-panel-body {
+					padding: 30px 0 0 0;
+				}
+			}
+		}
+	}
+}
+
+.magellan-accordion {
+	.vc_tta-panels-container {
+		border-top: 2px solid @accent-color-1;
+		.vc_tta-panels {
+			.vc_tta-panel {
+				border-bottom: 2px solid @accent-color-1;
+				margin: 0;
+				padding: 0;
+				.vc_tta-panel-heading {
+					background: none;
+					border: none;
+					margin: 0;
+					padding: 0;
+					h4 {
+						font-size: 14px;
+						font-weight: 700;
+						text-transform: uppercase;
+						a {
+							color: @accent-color-1;
+							transition: none;
+							padding: 14px 20px;
+							&:hover {
+								color: @primary-color-3;
+								.vc_tta-controls-icon {
+									&:before, &:after { border-color: @primary-color-3 !important; }
+								}
+							}
+							&:before {
+								content: "\f067";
+								font-family: FontAwesome;
+								font-weight: 300;
+								margin-right: 10px;
+							}
+						}
+					}
+				}
+				.vc_tta-panel-body {
+					background: none;
+					border: none;
+					padding: 15px 20px 30px 20px;
+				}
+			}
+			.vc_active {
+				a { &:before { content: "\f068" !important; } }
+			}
+		}
+	}
+	.vc_tta-controls-icon {
+		&:before, &:after { border-color: @accent-color-1 !important; transition: none; display: none !important; }
+	}
+}
+
+.magellan-tour {
+	.vc_tta-tabs-container {
+		.vc_tta-tabs-list {
+			.vc_tta-tab {
+				a {
+					font-size: 12px !important;
+					line-height: 18px !important;
+					font-weight: 900;
+					text-transform: uppercase;
+					padding: 5px 10px !important;
+					margin: 0 0 5px 0;
+					color: @accent-color-1;
+					border: none;
+					border-radius: 0;
+					background: none;
+					display: inline-block !important;
+					transition: none;
+					&.active {
+						box-shadow: @accent-color-1 0 2px 0 inset, @accent-color-1 0 -2px 0 inset, @accent-color-1 2px 0 0 inset, @accent-color-1 -2px 0 0 inset;
+					}
+					&:hover {
+						box-shadow: @primary-color-3 0 2px 0 inset, @primary-color-3 0 -2px 0 inset, @primary-color-3 2px 0 0 inset, @primary-color-3 -2px 0 0 inset;
+						background: none;
+						color: @primary-color-3;
+					}
+					&:focus {
+						color: @accent-color-1;
+						&:hover { color: @primary-color-3; }
+					}
+					&:active {
+						box-shadow: @primary-color-3 0 2px 0 inset, @primary-color-3 0 -2px 0 inset, @primary-color-3 2px 0 0 inset, @primary-color-3 -2px 0 0 inset;
+						color: @primary-color-3;
+					}
+				}
+			}
+			.vc_active {
+				a {
+					box-shadow: @accent-color-1 0 2px 0 inset, @accent-color-1 0 -2px 0 inset, @accent-color-1 2px 0 0 inset, @accent-color-1 -2px 0 0 inset;
+				}
+			}
+		}
+	}
+	.vc_tta-panels-container {
+		.vc_tta-panels {
+			background: none !important;
+			border: none !important;
+			border-radius: 0 !important;
+			.vc_tta-panel {
+				margin: 0;
+				.vc_tta-panel-body {
+					padding: 0 0 0 35px;
+				}
+			}
+		}
+	}
+}
+
+.magellan-toggle {
+	margin-bottom: 40px !important;
+	display: table;
+	width: 100%;
+	.vc_toggle_title {
+		display: table;
+		width: 100%;
+		padding: 0 !important;
+		h4 {
+			float: left;
+			padding: 5px 10px;
+			margin: 0;
+			margin-right: 20px;
+			text-transform: uppercase;
+			font: 900 16px/22px @general_font, sans-serif;
+			color: @text-color-1;
+			background: @accent-color-1;
+			a { color: @text-color-1; text-decoration: none; &:hover { color: @primary-color-2; } }
+			&:before {
+				content: "\f067";
+				font-family: FontAwesome;
+				font-weight: 300;
+				margin-right: 7px;
+			}
+		}
+		&:after {
+			content: "";
+			background: @accent-color-1;
+			height: 2px;
+			overflow: hidden;
+			display: block;
+			position: relative;
+			top: 15px;
+		}
+	}
+	.vc_toggle_icon {
+		display: none !important;
+		&:before, &:after { border-color: @accent-color-1 !important; transition: none; display: none !important; }
+	}
+	&.vc_toggle_active {
+		h4 {
+			&:before { content: "\f068" !important; }
+		}
+	}
+	.vc_toggle_content {
+		padding: 40px 0 0 0 !important;
+		margin: 0 !important;
+		p:last-child { margin: 0 !important; }
+	}
+}
+
+.magellan-button-mini, .magellan-button-small, .magellan-button-normal, .magellan-button-large {
+	button {
+		margin: 0 20px 20px 0;
+		transition: none !important;
+		border-radius: 0 !important;
+		border: none !important;
+		text-transform: uppercase;
+		font-weight: 900 !important;
+		font-weight: 10px !important;
+		/* background: @accent-color-1 !important; */
+		color: @primary-color-3 !important;
+		box-shadow: fade(@primary-color-1, 20%) 0 -3px 0 inset !important;
+		&:hover { background: @primary-color-3 !important; color: @primary-color-2 !important; box-shadow: @primary-color-1 0 -3px 0 inset !important; }
+		&:active { box-shadow: none !important; padding: 10px 15px 8px 15px !important; }
+	}
+}
+
+.magellan-button-small { button { font-size: 12px !important; } }
+.magellan-button-normal { button { font-size: 14px !important; } }
+.magellan-button-large { button { font-size: 24px !important; } }
+
+.magellan-button-yellow { button { background: #ffa200 !important; } }
+.magellan-button-red { button { background: #e5192c !important; color: #ffffff !important; } }
+.magellan-button-green { button { background: #86bc42 !important; color: #ffffff !important; } }
+.magellan-button-blue { button { background: #0b99bd !important; color: #ffffff !important; } }
+.magellan-button-sepia { button { background: #c3a36b !important; color: #ffffff !important; } }
+
+.vc_message_box { padding: 2em 2em 2em 5em;  }
+.vc_message_box-icon > * { left: 60%; }
+
+.magellan-list-default {
+	ul, li {
+		margin: 0;
+		padding: 0;
+		font-weight: 700;
+		list-style: none;
+	}
+	ul { padding: 0 0 0 30px; }
+	li {
+		margin-bottom: 10px;
+		&:before {
+			content: "\f111" !important;
+			font-family: FontAwesome;
+			font-weight: 300;
+			margin-right: 10px;
+			font-size: 9px;
+			position: relative;
+			top: -2px;
+			&:last-child { margin-bottom: 0; }
+		}
+	}
+}
+
+.magellan-list-green {
+	li {
+		color: #009804;
+		&:before { content: "\f00c" !important; font-size: 14px; top: 0; }
+	}
+}
+
+.magellan-list-red {
+	li {
+		color: #ff3823;
+		&:before { content: "\f00d" !important; font-size: 14px; top: 0; }
+	}
+}
+
+.magellan-call-to-action {
+	border: none !important;
+	border-radius: 0 !important;
+	background: fade(@primary-color-1, 5%) !important;
+	text-align: center;
+	header {
+		text-align: center;
+		h2 { font: 700 36px/42px @title_font, serif; margin: 0 0 20px 0; }
+		h4 { font-size: 16px; font-weight: 700; }
+	}
+}

@@ -1,0 +1,167 @@
+/* Visual Composer Overrides */
+
+.page-template-page-layout .focus > .wpb_row {
+	width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+
+.page-template-page-layout .focus > .wpb_row .wpb_row
+ {
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.wpb_row.full-width {
+	width: 100% !important;
+	padding-left: 0;
+	padding-right: 0;
+}
+.wpb_row.full-width .vc_col-sm-12 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+	.page-template-page-layout .focus > .wpb_row {
+		width: 970px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.page-template-page-layout .focus > .wpb_row  {
+		width: 750px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.page-template-page-layout .focus > .wpb_row  {
+		width: 100%;
+	}
+}
+
+
+/******************** Wordpress default content styling ********************/
+.gallery-caption {
+    
+}
+.alignleft {
+    float: left;
+    margin: 0 20px 17px 0 !important;
+}
+.alignright { 
+    float: right;
+    margin: 0 0 17px 20px !important;
+}
+.aligncenter { 
+    margin: 0 auto;
+}
+img.aligncenter {
+    text-align: center;
+    display: block;
+}
+
+.comment-link {
+    color: inherit !important;
+    font-weight: inherit !important;
+    font-size: inherit !important;
+}
+.wp-caption-text {
+	
+}
+.sticky {
+	
+}
+.bypostauthor {
+	
+}
+.btn:focus {
+    outline: none;
+}
+
+ul > br, ul > p {
+    display: none;
+}
+
+.post-pages {
+    text-align: center;
+	margin-bottom: 30px;
+}
+.post-pages a { 
+    margin: 0 4px 0 0;
+    padding: 6px 8px;
+    cursor: pointer; 
+}
+
+.post-password-form label {
+	width: 250px;
+}
+.post-password-form input[type="submit"] {
+	width: 250px;
+	display: block;
+	float: none;
+}
+
+
+/* Comment style adjustment */
+#hidden-submit { 
+	display: none; 
+}
+
+/* Custom Animation for FontAwesome */
+
+.fa-spin-custom, .glyphicon-spin {
+    -webkit-animation: spin 1000ms infinite linear;
+    animation: spin 1000ms infinite linear;
+}
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
